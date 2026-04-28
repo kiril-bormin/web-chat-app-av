@@ -7,10 +7,7 @@ defineProps<{
 
 const emit = defineEmits(['select-user'])
 
-const users = ref([
-  { _id: '1', fullName: 'John Doe', profilePic: '', online: true },
-  { _id: '2', fullName: 'Jane Smith', profilePic: '', online: false },
-])
+const users = ref([])
 
 const showOnlineOnly = ref(false)
 </script>

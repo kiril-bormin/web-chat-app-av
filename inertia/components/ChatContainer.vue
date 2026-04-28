@@ -5,10 +5,7 @@ const props = defineProps<{
   user: any
 }>()
 
-const messages = ref([
-  { _id: '1', senderId: 'me', text: 'Hey there!', createdAt: new Date().toISOString() },
-  { _id: '2', senderId: props.user?._id, text: 'Hi! How are you?', createdAt: new Date().toISOString() },
-])
+const messages = ref([])
 
 const messageEndRef = ref<HTMLElement | null>(null)
 
