@@ -5,7 +5,10 @@ const props = defineProps<{
   user: any
 }>()
 
-const messages = ref([])
+const messages = ref([
+  { _id: '1', senderId: 'me', text: 'Hey there!', createdAt: new Date().toISOString() },
+  { _id: '2', senderId: props.user?._id, text: 'Hi! How are you?', createdAt: new Date().toISOString() },
+])
 
 const messageEndRef = ref<HTMLElement | null>(null)
 
@@ -19,66 +22,7 @@ onMounted(scrollToBottom)
 watch(messages, scrollToBottom, { deep: true })
 </script>
 
-<template>
-  <div class="chat-container">
-    <div class="chat-header">
-      <div class="user-info">
-        <img :src="user?.profilePic || '/avatar.png'" :alt="user?.fullName" class="avatar" />
-        <div>
-          <div class="user-name">{{ user?.fullName }}</div>
-          <div class="user-status">{{ user?.online ? 'Online' : 'Offline' }}</div>
-        </div>
-      </div>
-    </div>
 
-    <div class="message-list">
-      <div
-        v-for="message in messages"
-        :key="message._id"
-        class="message-item"
-        :class="{ 'message-me': message.senderId === 'me', 'message-them': message.senderId !== 'me' }"
-      >
-        <div class="message-avatar">
-          <img
-            :src="message.senderId === 'me' ? '/avatar.png' : user?.profilePic || '/avatar.png'"
-            class="avatar-small"
-          />
-        </div>
-        <div class="message-content">
-          <div class="message-bubble">
-            {{ message.text }}
-          </div>
-          <div class="message-time">
-            {{ new Date(message.createdAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) }}
-          </div>
-        </div>
-      </div>
-      <div ref="messageEndRef"></div>
-    </div>
-
-    <div class="message-input-area">
-      <div class="input-container">
-        <input type="text" placeholder="Type a message..." class="message-input" />
-        <button class="send-button">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <line x1="22" y1="2" x2="11" y2="13"></line>
-            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-          </svg>
-        </button>
-      </div>
-    </div>
-  </div>
-</template>
 
 <style scoped>
 .chat-container {
