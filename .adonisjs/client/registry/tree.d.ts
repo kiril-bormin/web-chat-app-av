@@ -12,4 +12,9 @@ export interface ApiDefinition {
     store: typeof routes['session.store']
     destroy: typeof routes['session.destroy']
   }
+  messages: {
+    getUsers: typeof routes['messages.get_users']
+    getMessages: typeof routes['messages.get_messages']
+    sendMessage: typeof routes['messages.send_message']
+  }
 }

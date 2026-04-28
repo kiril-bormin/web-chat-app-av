@@ -26,5 +26,10 @@ router
 router
   .group(() => {
     router.post('logout', [controllers.Session, 'destroy'])
+
+    // Chat routes
+    router.get('users', [controllers.Messages, 'getUsers'])
+    router.get('messages/:userId', [controllers.Messages, 'getMessages'])
+    router.post('messages/:userId', [controllers.Messages, 'sendMessage'])
   })
   .use(middleware.auth())

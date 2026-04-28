@@ -42,6 +42,24 @@ const routes = {
     tokens: [{"old":"/logout","type":0,"val":"logout","end":""}],
     types: placeholder as Registry['session.destroy']['types'],
   },
+  'messages.get_users': {
+    methods: ["GET","HEAD"],
+    pattern: '/users',
+    tokens: [{"old":"/users","type":0,"val":"users","end":""}],
+    types: placeholder as Registry['messages.get_users']['types'],
+  },
+  'messages.get_messages': {
+    methods: ["GET","HEAD"],
+    pattern: '/messages/:userId',
+    tokens: [{"old":"/messages/:userId","type":0,"val":"messages","end":""},{"old":"/messages/:userId","type":1,"val":"userId","end":""}],
+    types: placeholder as Registry['messages.get_messages']['types'],
+  },
+  'messages.send_message': {
+    methods: ["POST"],
+    pattern: '/messages/:userId',
+    tokens: [{"old":"/messages/:userId","type":0,"val":"messages","end":""},{"old":"/messages/:userId","type":1,"val":"userId","end":""}],
+    types: placeholder as Registry['messages.send_message']['types'],
+  },
 } as const satisfies Record<string, AdonisEndpoint>
 
 export { routes }

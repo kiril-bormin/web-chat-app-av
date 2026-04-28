@@ -4,6 +4,7 @@ import Message from '#models/message'
 import { createMessageValidator } from '#validators/message'
 import app from '@adonisjs/core/services/app'
 import { cuid } from '@adonisjs/core/helpers'
+import transmission from '@adonisjs/transmission/services/main'
 
 export default class MessagesController {
   /**
@@ -58,7 +59,10 @@ export default class MessagesController {
       image: imagePath,
     })
 
-    // TODO: Broadcast message via real-time (Transmission)
+    // Broadcast message via real-time (Transmission)
+    transmission.broadcast(`chats:${receiverId}`, {
+      message,
+    })
 
     return response.created(message)
   }
