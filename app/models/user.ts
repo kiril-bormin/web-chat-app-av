@@ -5,6 +5,7 @@ import { column, BaseModel, hasMany } from '@adonisjs/lucid/orm'
 import { withAuthFinder } from '@adonisjs/auth/mixins/lucid'
 import type { HasMany } from '@adonisjs/lucid/types/relations'
 import Message from '#models/message'
+import { DbRememberMeTokensProvider } from '@adonisjs/auth/session'
 
 const AuthFinder = withAuthFinder(hash)
 
@@ -42,6 +43,8 @@ export default class User extends compose(BaseModel, AuthFinder) {
     foreignKey: 'receiverId',
   })
   declare receivedMessages: HasMany<typeof Message>
+
+  static rememberMeTokens = DbRememberMeTokensProvider.forModel(User)
 
   /**
    * Getters

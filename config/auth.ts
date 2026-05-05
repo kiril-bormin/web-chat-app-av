@@ -14,9 +14,14 @@ const authConfig = defineConfig({
      */
     web: sessionGuard({
       /**
-       * Enable persistent login using remember-me tokens.
+       * 1. Activer l'utilisation des jetons
        */
-      useRememberMeTokens: false,
+      useRememberMeTokens: true,
+
+      /**
+       * 2. Ajouter la durée
+       */
+      rememberMeTokensAge: '7 days',
 
       provider: sessionUserProvider({
         model: () => import('#models/user'),
