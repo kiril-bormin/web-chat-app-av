@@ -3,7 +3,7 @@ import User from '#models/user'
 import Message from '#models/message'
 import { createMessageValidator } from '#validators/message'
 import app from '@adonisjs/core/services/app'
-import { cuid } from '@adonisjs/core/helpers'
+import { randomUUID } from 'node:crypto'
 import transmit from '@adonisjs/transmit/services/main'
 
 export default class MessagesController {
@@ -46,8 +46,10 @@ export default class MessagesController {
     let imagePath: string | null = null
 
     if (image) {
+      const fileName = `${randomUUID()}.${image.extname}`
+
       await image.move(app.makePath('public/uploads'), {
-        name: `${cuid()}.${image.extname}`,
+        name: fileName,
       })
       imagePath = `/uploads/${image.fileName}`
     }

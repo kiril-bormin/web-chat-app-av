@@ -87,8 +87,8 @@ export interface Registry {
       paramsTuple: []
       params: {}
       query: {}
-      response: ExtractResponse<Awaited<ReturnType<import('#controllers/messages_controller').default['getUsers']>>>
-      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/messages_controller').default['getUsers']>>>
+      response: unknown
+      errorResponse: unknown
     }
   }
   'messages.get_messages': {
@@ -99,20 +99,20 @@ export interface Registry {
       paramsTuple: [ParamValue]
       params: { userId: ParamValue }
       query: {}
-      response: ExtractResponse<Awaited<ReturnType<import('#controllers/messages_controller').default['getMessages']>>>
-      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/messages_controller').default['getMessages']>>>
+      response: unknown
+      errorResponse: unknown
     }
   }
   'messages.send_message': {
     methods: ["POST"]
     pattern: '/messages/:userId'
     types: {
-      body: ExtractBody<InferInput<(typeof import('#validators/message').createMessageValidator)>>
+      body: {}
       paramsTuple: [ParamValue]
       params: { userId: ParamValue }
-      query: ExtractQuery<InferInput<(typeof import('#validators/message').createMessageValidator)>>
-      response: ExtractResponse<Awaited<ReturnType<import('#controllers/messages_controller').default['sendMessage']>>>
-      errorResponse: ExtractErrorResponse<Awaited<ReturnType<import('#controllers/messages_controller').default['sendMessage']>>> | { status: 422; response: { errors: SimpleError[] } }
+      query: {}
+      response: unknown
+      errorResponse: unknown
     }
   }
 }
