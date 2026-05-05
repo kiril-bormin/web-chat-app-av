@@ -3,19 +3,19 @@ import type { HttpContext } from '@adonisjs/core/http'
 
 export default class SessionController {
   async create({ inertia }: HttpContext) {
-    return inertia.render('auth/login', {})
+    return inertia.render('auth/login', {}) // on demande à inertia d'afficher la page auth/login.vue de vue js
   }
 
   async store({ request, auth, response }: HttpContext) {
-    const { email, password } = request.all()
-    const user = await User.verifyCredentials(email, password)
+    const { email, password } = request.all() // on récupère toutes les données du formulaire en gardant le mail et le mdp
+    const user = await User.verifyCredentials(email, password) // cherche utilisateur par son mail, afin de vérifier si il n'existe déjà
 
-    await auth.use('web').login(user)
-    response.redirect().toRoute('home')
+    await auth.use('web').login(user) // adonis crée la session statefull (serveur gère),
+    response.redirect().toRoute('home') // redirection vers la page home
   }
 
   async destroy({ auth, response }: HttpContext) {
-    await auth.use('web').logout()
+    await auth.use('web').logout() // on détruit la session actuelle et invalide le cookie
     response.redirect().toRoute('session.create')
   }
 }

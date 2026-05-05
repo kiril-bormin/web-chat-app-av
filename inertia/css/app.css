@@ -1,3 +1,5 @@
+@import 'tailwindcss';
+
 :root {
   --gray-1: oklch(98.5% 0 0);
   --gray-2: oklch(97% 0 0);
@@ -8,12 +10,6 @@
   --gray-8: oklch(37.1% 0 0);
   --gray-10: oklch(26.9% 0 0);
   --gray-12: oklch(14.5% 0 0);
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 html,
@@ -155,14 +151,12 @@ form {
 }
 label {
   margin-bottom: 4px;
-  display: block;
   font-size: 14px;
   font-weight: 500;
 }
 input,
 textarea,
 button {
-  width: 100%;
   border-radius: 4px;
   font: inherit;
 }

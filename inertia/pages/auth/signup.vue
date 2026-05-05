@@ -12,8 +12,9 @@ import { Form } from '@adonisjs/inertia/vue'
     <div>
       <Form route="new_account.store" #default="{ processing, errors }">
         <div>
-          <label for="fullName">Full name</label>
+          <label class="block" for="fullName">Full name</label>
           <input
+            class="w-full"
             type="text"
             name="fullName"
             id="fullName"
@@ -23,8 +24,9 @@ import { Form } from '@adonisjs/inertia/vue'
         </div>
 
         <div>
-          <label for="email">Email</label>
+          <label class="block" for="email">Email</label>
           <input
+            class="w-full"
             type="email"
             name="email"
             id="email"
@@ -35,8 +37,9 @@ import { Form } from '@adonisjs/inertia/vue'
         </div>
 
         <div>
-          <label for="password">Password</label>
+          <label class="block" for="password">Password</label>
           <input
+            class="w-full"
             type="password"
             name="password"
             id="password"
@@ -47,8 +50,9 @@ import { Form } from '@adonisjs/inertia/vue'
         </div>
 
         <div>
-          <label for="passwordConfirmation">Confirm password</label>
+          <label class="block" for="passwordConfirmation">Confirm password</label>
           <input
+            class="w-full"
             type="password"
             name="passwordConfirmation"
             id="passwordConfirmation"

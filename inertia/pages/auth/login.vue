@@ -11,9 +11,10 @@ import { Form } from '@adonisjs/inertia/vue'
 
     <div>
       <Form route="session.store" #default="{ processing, errors }">
-        <div>
-          <label for="email">Email</label>
+        <div class="block">
+          <label class="block" for="email">Email</label>
           <input
+            class="w-full"
             type="email"
             name="email"
             id="email"
@@ -24,8 +25,9 @@ import { Form } from '@adonisjs/inertia/vue'
         </div>
 
         <div>
-          <label for="password">Password</label>
+          <label class="block" for="password">Password</label>
           <input
+            class="w-full"
             type="password"
             name="password"
             id="password"
@@ -33,6 +35,10 @@ import { Form } from '@adonisjs/inertia/vue'
             :data-invalid="errors.password ? 'true' : undefined"
           />
           <div v-if="errors.password">{{ errors.password }}</div>
+        </div>
+        <div class="flex items-center gap-5">
+          <label class="block" for="remember">Se souvenir de moi</label>
+          <input type="checkbox" name="remember" id="remember" />
         </div>
 
         <div>
