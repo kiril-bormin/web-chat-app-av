@@ -8,7 +8,7 @@ import transmit from '@adonisjs/transmit/services/main'
 
 export default class MessagesController {
   /**
-   * Get list of users (excluding the current user)
+   * Récupérer la liste des utilisateurs
    */
   async getUsers({ auth, response }: HttpContext) {
     const user = auth.user!
@@ -17,7 +17,7 @@ export default class MessagesController {
   }
 
   /**
-   * Get messages between the current user and another user
+   * Récupérer les message entre l'utilisateur actuel et celui dans le chat.
    */
   async getMessages({ auth, params, response }: HttpContext) {
     const user = auth.user!
@@ -36,7 +36,7 @@ export default class MessagesController {
   }
 
   /**
-   * Send a message to another user
+   * Envoie de message
    */
   async sendMessage({ auth, params, request, response }: HttpContext) {
     const user = auth.user!
@@ -63,7 +63,7 @@ export default class MessagesController {
     transmit.broadcast(`chats/${receiverId}`, {
       message,
     })
-    
+
     // Also broadcast to the sender to keep UI in sync across multiple devices
     transmit.broadcast(`chats/${user.id}`, {
       message,

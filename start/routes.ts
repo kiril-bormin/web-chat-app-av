@@ -11,6 +11,7 @@ import { middleware } from '#start/kernel'
 import router from '@adonisjs/core/services/router'
 import NewAccountController from '#controllers/new_account_controller'
 import SessionController from '#controllers/session_controller'
+import MessagesController from '#controllers/messages_controller'
 
 router.on('/').renderInertia('home', {}).as('home')
 
@@ -20,13 +21,8 @@ router.post('signup', [NewAccountController, 'store']).use(middleware.guest())
 router.get('login', [SessionController, 'create']).use(middleware.guest())
 router.post('login', [SessionController, 'store']).use(middleware.guest())
 
-router
-  .group(() => {
-    router.post('logout', [controllers.Session, 'destroy'])
+router.post('logout', [SessionController, 'destroy']).use(middleware.auth())
 
-    // Chat routes
-    router.get('users', [controllers.Messages, 'getUsers'])
-    router.get('messages/:userId', [controllers.Messages, 'getMessages'])
-    router.post('messages/:userId', [controllers.Messages, 'sendMessage'])
-  })
-  .use(middleware.auth())
+router.get('users', [MessagesController, 'getUsers']).use(middleware.auth())
+router.get('messages/:userId', [MessagesController, 'getMessages']).use(middleware.auth())
+router.post('messages/:userId', [MessagesController, 'sendMessage']).use(middleware.auth())
