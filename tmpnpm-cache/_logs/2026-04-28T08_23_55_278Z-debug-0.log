@@ -1,0 +1,1428 @@
+0 verbose cli C:\inf-toolset\scoop\apps\nodejs-lts\current\node.exe C:\inf-toolset\scoop\apps\nodejs-lts\current\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.3
+2 info using node@v22.18.0
+3 silly config load:file:C:\inf-toolset\scoop\apps\nodejs-lts\22.18.0\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\px20umf\Documents\github\web-chat-app-av\.npmrc
+5 silly config load:file:H:\.npmrc
+6 silly config load:file:D:\a\standard-toolset\standard-toolset\build\scoop\persist\nodejs-lts\bin\etc\npmrc
+7 verbose title npm install mysql2
+8 verbose argv "install" "mysql2" "--cache" "C:tmpnpm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\px20umf\Documents\github\web-chat-app-av\tmpnpm-cache\_logs\2026-04-28T08_23_55_278Z-
+10 verbose logfile C:\Users\px20umf\Documents\github\web-chat-app-av\tmpnpm-cache\_logs\2026-04-28T08_23_55_278Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest mysql2@^3.22.2
+15 silly packumentCache full:https://registry.npmjs.org/mysql2 cache-miss
+16 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+17 http fetch GET 200 https://registry.npmjs.org/mysql2 267ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/mysql2 set size:undefined disposed:false
+19 silly fetch manifest @types/node@~25.5.0
+20 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/npm 507ms
+22 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 503ms (cache miss)
+23 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+24 silly placeDep ROOT mysql2@3.22.3 REPLACE for: web-chat-app-av@0.0.0 want: ^3.22.2
+25 warn EBADENGINE Unsupported engine {
+25 warn EBADENGINE   package: 'web-chat-app-av@0.0.0',
+25 warn EBADENGINE   required: { node: '>=24.0.0' },
+25 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+25 warn EBADENGINE }
+26 warn EBADENGINE Unsupported engine {
+26 warn EBADENGINE   package: '@adonisjs/ace@14.1.0',
+26 warn EBADENGINE   required: { node: '>=24.0.0' },
+26 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+26 warn EBADENGINE }
+27 warn EBADENGINE Unsupported engine {
+27 warn EBADENGINE   package: '@adonisjs/application@9.0.0',
+27 warn EBADENGINE   required: { node: '>=24.0.0' },
+27 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+27 warn EBADENGINE }
+28 warn EBADENGINE Unsupported engine {
+28 warn EBADENGINE   package: '@adonisjs/assembler@8.4.0',
+28 warn EBADENGINE   required: { node: '>=24.0.0' },
+28 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+28 warn EBADENGINE }
+29 warn EBADENGINE Unsupported engine {
+29 warn EBADENGINE   package: '@adonisjs/auth@10.0.0',
+29 warn EBADENGINE   required: { node: '>=24.0.0' },
+29 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+29 warn EBADENGINE }
+30 warn EBADENGINE Unsupported engine {
+30 warn EBADENGINE   package: '@adonisjs/bodyparser@11.0.0',
+30 warn EBADENGINE   required: { node: '>=24.0.0' },
+30 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+30 warn EBADENGINE }
+31 warn EBADENGINE Unsupported engine {
+31 warn EBADENGINE   package: '@adonisjs/config@6.1.0',
+31 warn EBADENGINE   required: { node: '>=24.0.0' },
+31 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+31 warn EBADENGINE }
+32 warn EBADENGINE Unsupported engine {
+32 warn EBADENGINE   package: '@adonisjs/core@7.3.0',
+32 warn EBADENGINE   required: { node: '>=24.0.0' },
+32 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+32 warn EBADENGINE }
+33 warn EBADENGINE Unsupported engine {
+33 warn EBADENGINE   package: '@adonisjs/env@7.0.0',
+33 warn EBADENGINE   required: { node: '>=24.0.0' },
+33 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+33 warn EBADENGINE }
+34 warn EBADENGINE Unsupported engine {
+34 warn EBADENGINE   package: '@adonisjs/events@10.2.0',
+34 warn EBADENGINE   required: { node: '>=24.0.0' },
+34 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+34 warn EBADENGINE }
+35 warn EBADENGINE Unsupported engine {
+35 warn EBADENGINE   package: '@adonisjs/fold@11.0.0',
+35 warn EBADENGINE   required: { node: '>=24.0.0' },
+35 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+35 warn EBADENGINE }
+36 warn EBADENGINE Unsupported engine {
+36 warn EBADENGINE   package: '@adonisjs/health@3.1.0',
+36 warn EBADENGINE   required: { node: '>=24.0.0' },
+36 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+36 warn EBADENGINE }
+37 warn EBADENGINE Unsupported engine {
+37 warn EBADENGINE   package: '@adonisjs/http-server@8.1.1',
+37 warn EBADENGINE   required: { node: '>=24.0.0' },
+37 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+37 warn EBADENGINE }
+38 warn EBADENGINE Unsupported engine {
+38 warn EBADENGINE   package: '@adonisjs/http-transformers@2.3.1',
+38 warn EBADENGINE   required: { node: '>=24.0.0' },
+38 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+38 warn EBADENGINE }
+39 warn EBADENGINE Unsupported engine {
+39 warn EBADENGINE   package: '@adonisjs/inertia@4.2.0',
+39 warn EBADENGINE   required: { node: '>=24.0.0' },
+39 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+39 warn EBADENGINE }
+40 warn EBADENGINE Unsupported engine {
+40 warn EBADENGINE   package: '@adonisjs/logger@7.1.1',
+40 warn EBADENGINE   required: { node: '>=24.0.0' },
+40 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+40 warn EBADENGINE }
+41 warn EBADENGINE Unsupported engine {
+41 warn EBADENGINE   package: '@adonisjs/lucid@22.4.1',
+41 warn EBADENGINE   required: { node: '>=24.0.0' },
+41 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+41 warn EBADENGINE }
+42 warn EBADENGINE Unsupported engine {
+42 warn EBADENGINE   package: '@adonisjs/presets@3.0.0',
+42 warn EBADENGINE   required: { node: '>=24.0.0' },
+42 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+42 warn EBADENGINE }
+43 warn EBADENGINE Unsupported engine {
+43 warn EBADENGINE   package: '@adonisjs/repl@5.0.0',
+43 warn EBADENGINE   required: { node: '>=24.0.0' },
+43 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+43 warn EBADENGINE }
+44 warn EBADENGINE Unsupported engine {
+44 warn EBADENGINE   package: '@adonisjs/session@8.0.0',
+44 warn EBADENGINE   required: { node: '>=24.0.0' },
+44 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+44 warn EBADENGINE }
+45 warn EBADENGINE Unsupported engine {
+45 warn EBADENGINE   package: '@adonisjs/shield@9.0.0',
+45 warn EBADENGINE   required: { node: '>=24.0.0' },
+45 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+45 warn EBADENGINE }
+46 warn EBADENGINE Unsupported engine {
+46 warn EBADENGINE   package: '@adonisjs/static@2.0.1',
+46 warn EBADENGINE   required: { node: '>=24.0.0' },
+46 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+46 warn EBADENGINE }
+47 warn EBADENGINE Unsupported engine {
+47 warn EBADENGINE   package: '@adonisjs/vite@5.1.0',
+47 warn EBADENGINE   required: { node: '>=24.0.0' },
+47 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+47 warn EBADENGINE }
+48 warn EBADENGINE Unsupported engine {
+48 warn EBADENGINE   package: '@japa/core@10.4.0',
+48 warn EBADENGINE   required: { node: '>=24.0.0' },
+48 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+48 warn EBADENGINE }
+49 warn EBADENGINE Unsupported engine {
+49 warn EBADENGINE   package: '@poppinss/ts-exec@1.4.4',
+49 warn EBADENGINE   required: { node: '>=24.0.0' },
+49 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+49 warn EBADENGINE }
+50 warn EBADENGINE Unsupported engine {
+50 warn EBADENGINE   package: '@tuyau/core@1.2.2',
+50 warn EBADENGINE   required: { node: '>=24.0.0' },
+50 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+50 warn EBADENGINE }
+51 warn EBADENGINE Unsupported engine {
+51 warn EBADENGINE   package: 'knex-dynamic-connection@5.0.1',
+51 warn EBADENGINE   required: { node: '>=24.0.0' },
+51 warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+51 warn EBADENGINE }
+52 silly reify moves {}
+53 silly audit bulk request {
+53 silly audit   '@adobe/css-tools': [ '4.4.4' ],
+53 silly audit   '@adonisjs/ace': [ '14.1.0' ],
+53 silly audit   '@adonisjs/application': [ '9.0.0' ],
+53 silly audit   '@adonisjs/assembler': [ '8.4.0' ],
+53 silly audit   '@adonisjs/auth': [ '10.0.0' ],
+53 silly audit   '@adonisjs/bodyparser': [ '11.0.0' ],
+53 silly audit   '@adonisjs/config': [ '6.1.0' ],
+53 silly audit   '@adonisjs/core': [ '7.3.0' ],
+53 silly audit   '@adonisjs/cors': [ '3.0.0' ],
+53 silly audit   '@adonisjs/env': [ '7.0.0' ],
+53 silly audit   '@adonisjs/eslint-config': [ '3.0.0' ],
+53 silly audit   '@adonisjs/eslint-plugin': [ '2.2.2' ],
+53 silly audit   '@adonisjs/events': [ '10.2.0' ],
+53 silly audit   '@adonisjs/fold': [ '11.0.0' ],
+53 silly audit   '@adonisjs/hash': [ '10.1.0' ],
+53 silly audit   '@adonisjs/health': [ '3.1.0' ],
+53 silly audit   '@adonisjs/http-server': [ '8.1.1' ],
+53 silly audit   '@adonisjs/http-transformers': [ '2.3.1' ],
+53 silly audit   '@adonisjs/inertia': [ '4.2.0' ],
+53 silly audit   '@adonisjs/logger': [ '7.1.1' ],
+53 silly audit   '@adonisjs/lucid': [ '22.4.1' ],
+53 silly audit   '@adonisjs/presets': [ '3.0.0' ],
+53 silly audit   '@adonisjs/prettier-config': [ '1.4.5' ],
+53 silly audit   '@adonisjs/repl': [ '5.0.0' ],
+53 silly audit   '@adonisjs/session': [ '8.0.0' ],
+53 silly audit   '@adonisjs/shield': [ '9.0.0' ],
+53 silly audit   '@adonisjs/static': [ '2.0.1' ],
+53 silly audit   '@adonisjs/tsconfig': [ '2.0.0' ],
+53 silly audit   '@adonisjs/vite': [ '5.1.0' ],
+53 silly audit   '@antfu/install-pkg': [ '1.1.0' ],
+53 silly audit   '@arr/every': [ '1.0.1' ],
+53 silly audit   '@ast-grep/napi': [ '0.42.0' ],
+53 silly audit   '@ast-grep/napi-darwin-arm64': [ '0.42.0' ],
+53 silly audit   '@ast-grep/napi-darwin-x64': [ '0.42.0' ],
+53 silly audit   '@ast-grep/napi-linux-arm64-gnu': [ '0.42.0' ],
+53 silly audit   '@ast-grep/napi-linux-arm64-musl': [ '0.42.0' ],
+53 silly audit   '@ast-grep/napi-linux-x64-gnu': [ '0.42.0' ],
+53 silly audit   '@ast-grep/napi-linux-x64-musl': [ '0.42.0' ],
+53 silly audit   '@ast-grep/napi-win32-arm64-msvc': [ '0.42.0' ],
+53 silly audit   '@ast-grep/napi-win32-ia32-msvc': [ '0.42.0' ],
+53 silly audit   '@ast-grep/napi-win32-x64-msvc': [ '0.42.0' ],
+53 silly audit   '@babel/code-frame': [ '7.29.0' ],
+53 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+53 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+53 silly audit   '@babel/parser': [ '7.29.2' ],
+53 silly audit   '@babel/types': [ '7.29.0' ],
+53 silly audit   '@borewit/text-codec': [ '0.2.2' ],
+53 silly audit   '@boringnode/encryption': [ '1.0.0' ],
+53 silly audit   '@chevrotain/cst-dts-gen': [ '11.2.0' ],
+53 silly audit   '@chevrotain/gast': [ '11.2.0' ],
+53 silly audit   '@chevrotain/regexp-to-ast': [ '11.2.0' ],
+53 silly audit   '@chevrotain/types': [ '11.2.0' ],
+53 silly audit   '@chevrotain/utils': [ '11.2.0' ],
+53 silly audit   '@colors/colors': [ '1.5.0' ],
+53 silly audit   '@esbuild/aix-ppc64': [ '0.27.4' ],
+53 silly audit   '@esbuild/android-arm': [ '0.27.4' ],
+53 silly audit   '@esbuild/android-arm64': [ '0.27.4' ],
+53 silly audit   '@esbuild/android-x64': [ '0.27.4' ],
+53 silly audit   '@esbuild/darwin-arm64': [ '0.27.4' ],
+53 silly audit   '@esbuild/darwin-x64': [ '0.27.4' ],
+53 silly audit   '@esbuild/freebsd-arm64': [ '0.27.4' ],
+53 silly audit   '@esbuild/freebsd-x64': [ '0.27.4' ],
+53 silly audit   '@esbuild/linux-arm': [ '0.27.4' ],
+53 silly audit   '@esbuild/linux-arm64': [ '0.27.4' ],
+53 silly audit   '@esbuild/linux-ia32': [ '0.27.4' ],
+53 silly audit   '@esbuild/linux-loong64': [ '0.27.4' ],
+53 silly audit   '@esbuild/linux-mips64el': [ '0.27.4' ],
+53 silly audit   '@esbuild/linux-ppc64': [ '0.27.4' ],
+53 silly audit   '@esbuild/linux-riscv64': [ '0.27.4' ],
+53 silly audit   '@esbuild/linux-s390x': [ '0.27.4' ],
+53 silly audit   '@esbuild/linux-x64': [ '0.27.4' ],
+53 silly audit   '@esbuild/netbsd-arm64': [ '0.27.4' ],
+53 silly audit   '@esbuild/netbsd-x64': [ '0.27.4' ],
+53 silly audit   '@esbuild/openbsd-arm64': [ '0.27.4' ],
+53 silly audit   '@esbuild/openbsd-x64': [ '0.27.4' ],
+53 silly audit   '@esbuild/openharmony-arm64': [ '0.27.4' ],
+53 silly audit   '@esbuild/sunos-x64': [ '0.27.4' ],
+53 silly audit   '@esbuild/win32-arm64': [ '0.27.4' ],
+53 silly audit   '@esbuild/win32-ia32': [ '0.27.4' ],
+53 silly audit   '@esbuild/win32-x64': [ '0.27.4' ],
+53 silly audit   '@eslint-community/eslint-utils': [ '4.9.1' ],
+53 silly audit   'eslint-visitor-keys': [ '3.4.3', '5.0.1', '4.2.1' ],
+53 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+53 silly audit   '@eslint/config-array': [ '0.23.3' ],
+53 silly audit   '@eslint/config-helpers': [ '0.5.3' ],
+53 silly audit   '@eslint/core': [ '1.1.1' ],
+53 silly audit   '@eslint/object-schema': [ '3.0.3' ],
+53 silly audit   '@eslint/plugin-kit': [ '0.6.1' ],
+53 silly audit   '@faker-js/faker': [ '10.4.0' ],
+53 silly audit   '@humanfs/core': [ '0.19.1' ],
+53 silly audit   '@humanfs/node': [ '0.16.7' ],
+53 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+53 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+53 silly audit   '@inertiajs/core': [ '2.3.18' ],
+53 silly audit   '@inertiajs/vue3': [ '2.3.18' ],
+53 silly audit   '@japa/assert': [ '4.2.0' ],
+53 silly audit   '@japa/browser-client': [ '2.3.0' ],
+53 silly audit   '@japa/core': [ '10.4.0' ],
+53 silly audit   '@japa/errors-printer': [ '4.1.4' ],
+53 silly audit   '@japa/plugin-adonisjs': [ '5.2.0' ],
+53 silly audit   '@japa/runner': [ '5.3.0' ],
+53 silly audit   '@jest/diff-sequences': [ '30.3.0' ],
+53 silly audit   '@jest/get-type': [ '30.1.0' ],
+53 silly audit   '@jest/schemas': [ '30.0.5' ],
+53 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+53 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+53 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+53 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+53 silly audit   '@phc/format': [ '1.0.0' ],
+53 silly audit   '@pinojs/redact': [ '0.4.0' ],
+53 silly audit   '@pkgr/core': [ '0.2.9' ],
+53 silly audit   '@poppinss/cliui': [ '6.8.1' ],
+53 silly audit   '@poppinss/colors': [ '4.1.6' ],
+53 silly audit   '@poppinss/dumper': [ '0.7.0' ],
+53 silly audit   '@poppinss/exception': [ '1.2.3' ],
+53 silly audit   '@poppinss/hooks': [ '7.3.0' ],
+53 silly audit   '@poppinss/inspect': [ '1.0.1' ],
+53 silly audit   '@poppinss/macroable': [ '1.1.2' ],
+53 silly audit   '@poppinss/matchit': [ '3.2.0' ],
+53 silly audit   '@poppinss/middleware': [ '3.2.7' ],
+53 silly audit   '@poppinss/multiparty': [ '3.0.0' ],
+53 silly audit   '@poppinss/object-builder': [ '1.1.0' ],
+53 silly audit   '@poppinss/prompts': [ '3.1.6' ],
+53 silly audit   '@poppinss/qs': [ '6.15.0' ],
+53 silly audit   '@poppinss/string': [ '1.7.1' ],
+53 silly audit   '@poppinss/ts-exec': [ '1.4.4' ],
+53 silly audit   '@poppinss/types': [ '1.2.1' ],
+53 silly audit   '@poppinss/utils': [ '7.0.1' ],
+53 silly audit   '@poppinss/validator-lite': [ '2.1.2' ],
+53 silly audit   '@rolldown/pluginutils': [ '1.0.0-rc.2' ],
+53 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-android-arm64': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-darwin-arm64': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-darwin-x64': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-freebsd-x64': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-openbsd-x64': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.60.1' ],
+53 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.60.1' ],
+53 silly audit   '@sec-ant/readable-stream': [ '0.4.1' ],
+53 silly audit   '@sinclair/typebox': [ '0.34.49' ],
+53 silly audit   '@sindresorhus/is': [ '7.2.0' ],
+53 silly audit   '@sindresorhus/merge-streams': [ '4.0.0' ],
+53 silly audit   '@sindresorhus/slugify': [ '3.0.0' ],
+53 silly audit   '@sindresorhus/transliterate': [ '2.3.1' ],
+53 silly audit   '@speed-highlight/core': [ '1.2.15' ],
+53 silly audit   '@standard-schema/spec': [ '1.1.0' ],
+53 silly audit   '@stylistic/eslint-plugin': [ '5.10.0' ],
+53 silly audit   '@swc/core': [ '1.15.21' ],
+53 silly audit   '@swc/core-darwin-arm64': [ '1.15.21' ],
+53 silly audit   '@swc/core-darwin-x64': [ '1.15.21' ],
+53 silly audit   '@swc/core-linux-arm-gnueabihf': [ '1.15.21' ],
+53 silly audit   '@swc/core-linux-arm64-gnu': [ '1.15.21' ],
+53 silly audit   '@swc/core-linux-arm64-musl': [ '1.15.21' ],
+53 silly audit   '@swc/core-linux-ppc64-gnu': [ '1.15.21' ],
+53 silly audit   '@swc/core-linux-s390x-gnu': [ '1.15.21' ],
+53 silly audit   '@swc/core-linux-x64-gnu': [ '1.15.21' ],
+53 silly audit   '@swc/core-linux-x64-musl': [ '1.15.21' ],
+53 silly audit   '@swc/core-win32-arm64-msvc': [ '1.15.21' ],
+53 silly audit   '@swc/core-win32-ia32-msvc': [ '1.15.21' ],
+53 silly audit   '@swc/core-win32-x64-msvc': [ '1.15.21' ],
+53 silly audit   '@swc/counter': [ '0.1.3' ],
+53 silly audit   '@swc/types': [ '0.1.26' ],
+53 silly audit   '@tokenizer/inflate': [ '0.4.1' ],
+53 silly audit   '@tokenizer/token': [ '0.3.0' ],
+53 silly audit   '@ts-morph/common': [ '0.28.1' ],
+53 silly audit   '@tuyau/core': [ '1.2.2' ],
+53 silly audit   '@types/chai': [ '5.2.3' ],
+53 silly audit   '@types/deep-eql': [ '4.0.2' ],
+53 silly audit   '@types/esrecurse': [ '4.3.1' ],
+53 silly audit   '@types/estree': [ '1.0.8' ],
+53 silly audit   '@types/he': [ '1.2.3' ],
+53 silly audit   '@types/json-schema': [ '7.0.15' ],
+53 silly audit   '@types/lodash': [ '4.17.24' ],
+53 silly audit   '@types/lodash-es': [ '4.17.12' ],
+53 silly audit   '@types/luxon': [ '3.7.1' ],
+53 silly audit   '@types/node': [ '25.5.0' ],
+53 silly audit   '@types/normalize-package-data': [ '2.4.4' ],
+53 silly audit   '@types/pluralize': [ '0.0.33' ],
+53 silly audit   '@types/validator': [ '13.15.10' ],
+53 silly audit   '@typescript-eslint/eslint-plugin': [ '8.58.0' ],
+53 silly audit   ignore: [ '7.0.5', '5.3.2' ],
+53 silly audit   '@typescript-eslint/parser': [ '8.58.0' ],
+53 silly audit   '@typescript-eslint/project-service': [ '8.58.0' ],
+53 silly audit   '@typescript-eslint/scope-manager': [ '8.58.0' ],
+53 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.58.0' ],
+53 silly audit   '@typescript-eslint/type-utils': [ '8.58.0' ],
+53 silly audit   '@typescript-eslint/types': [ '8.58.0' ],
+53 silly audit   '@typescript-eslint/typescript-estree': [ '8.58.0' ],
+53 silly audit   '@typescript-eslint/utils': [ '8.58.0' ],
+53 silly audit   '@typescript-eslint/visitor-keys': [ '8.58.0' ],
+53 silly audit   '@vinejs/compiler': [ '4.1.3' ],
+53 silly audit   '@vinejs/vine': [ '4.3.0' ],
+53 silly audit   '@vitejs/plugin-vue': [ '6.0.5' ],
+53 silly audit   '@volar/language-core': [ '2.4.28' ],
+53 silly audit   '@volar/source-map': [ '2.4.28' ],
+53 silly audit   '@volar/typescript': [ '2.4.28' ],
+53 silly audit   '@vue/compiler-core': [ '3.5.31' ],
+53 silly audit   '@vue/compiler-dom': [ '3.5.31' ],
+53 silly audit   '@vue/compiler-sfc': [ '3.5.31' ],
+53 silly audit   '@vue/compiler-ssr': [ '3.5.31' ],
+53 silly audit   '@vue/language-core': [ '3.2.6' ],
+53 silly audit   '@vue/reactivity': [ '3.5.31' ],
+53 silly audit   '@vue/runtime-core': [ '3.5.31' ],
+53 silly audit   '@vue/runtime-dom': [ '3.5.31' ],
+53 silly audit   '@vue/server-renderer': [ '3.5.31' ],
+53 silly audit   '@vue/shared': [ '3.5.31' ],
+53 silly audit   'abstract-logging': [ '2.0.1' ],
+53 silly audit   acorn: [ '8.16.0' ],
+53 silly audit   'acorn-jsx': [ '5.3.2' ],
+53 silly audit   ajv: [ '6.14.0' ],
+53 silly audit   'alien-signals': [ '3.1.2' ],
+53 silly audit   'ansi-colors': [ '4.1.3' ],
+53 silly audit   'ansi-escapes': [ '7.3.0' ],
+53 silly audit   'ansi-regex': [ '5.0.1', '6.2.2' ],
+53 silly audit   'ansi-styles': [ '4.3.0', '5.2.0', '6.2.3' ],
+53 silly audit   'assertion-error': [ '2.0.1' ],
+53 silly audit   astring: [ '1.9.0' ],
+53 silly audit   'async-retry': [ '1.3.3' ],
+53 silly audit   asynckit: [ '0.4.0' ],
+53 silly audit   'atomic-sleep': [ '1.0.0' ],
+53 silly audit   'aws-ssl-profiles': [ '1.1.2' ],
+53 silly audit   axios: [ '1.14.0' ],
+53 silly audit   'balanced-match': [ '4.0.4' ],
+53 silly audit   'base64-js': [ '1.5.1' ],
+53 silly audit   'baseline-browser-mapping': [ '2.10.12' ],
+53 silly audit   'basic-auth': [ '2.0.1' ],
+53 silly audit   'better-sqlite3': [ '12.8.0' ],
+53 silly audit   bindings: [ '1.5.0' ],
+53 silly audit   bl: [ '4.1.0' ],
+53 silly audit   'brace-expansion': [ '5.0.5' ],
+53 silly audit   braces: [ '3.0.3' ],
+53 silly audit   browserslist: [ '4.28.1' ],
+53 silly audit   buffer: [ '5.7.1' ],
+53 silly audit   'builtin-modules': [ '5.0.0' ],
+53 silly audit   'bundle-name': [ '4.1.0' ],
+53 silly audit   bytes: [ '3.1.2' ],
+53 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+53 silly audit   'call-bound': [ '1.0.4' ],
+53 silly audit   camelcase: [ '9.0.0' ],
+53 silly audit   'caniuse-lite': [ '1.0.30001782' ],
+53 silly audit   'case-anything': [ '3.1.2' ],
+53 silly audit   chai: [ '6.2.2' ],
+53 silly audit   chalk: [ '4.1.2' ],
+53 silly audit   'supports-color': [ '7.2.0', '10.2.2' ],
+53 silly audit   'change-case': [ '5.4.4' ],
+53 silly audit   'check-disk-space': [ '3.4.0' ],
+53 silly audit   chevrotain: [ '11.2.0' ],
+53 silly audit   chokidar: [ '5.0.0' ],
+53 silly audit   chownr: [ '1.1.4' ],
+53 silly audit   'ci-info': [ '4.4.0' ],
+53 silly audit   'clean-regexp': [ '1.0.0' ],
+53 silly audit   'escape-string-regexp': [ '1.0.5', '5.0.0', '4.0.0' ],
+53 silly audit   'cli-boxes': [ '4.0.1' ],
+53 silly audit   'cli-cursor': [ '5.0.0' ],
+53 silly audit   'cli-table3': [ '0.6.5' ],
+53 silly audit   'is-fullwidth-code-point': [ '3.0.0', '5.1.0' ],
+53 silly audit   'string-width': [ '4.2.3', '8.2.0' ],
+53 silly audit   'cli-truncate': [ '5.2.0' ],
+53 silly audit   'code-block-writer': [ '13.0.3' ],
+53 silly audit   'color-convert': [ '2.0.1' ],
+53 silly audit   'color-name': [ '1.1.4' ],
+53 silly audit   colorette: [ '2.0.19' ],
+53 silly audit   'combined-stream': [ '1.0.8' ],
+53 silly audit   commander: [ '10.0.1' ],
+53 silly audit   'common-path-prefix': [ '3.0.0' ],
+53 silly audit   'content-disposition': [ '1.0.1' ],
+53 silly audit   'content-type': [ '1.0.5' ],
+53 silly audit   'cookie-es': [ '2.0.0', '3.1.1' ],
+53 silly audit   'core-js-compat': [ '3.49.0' ],
+53 silly audit   'cross-spawn': [ '7.0.6' ],
+53 silly audit   csrf: [ '3.1.0' ],
+53 silly audit   csstype: [ '3.2.3' ],
+53 silly audit   dateformat: [ '4.6.3' ],
+53 silly audit   dayjs: [ '1.11.20' ],
+53 silly audit   debug: [ '4.4.3', '4.3.4' ],
+53 silly audit   'decompress-response': [ '6.0.0' ],
+53 silly audit   dedent: [ '1.7.2' ],
+53 silly audit   'deep-extend': [ '0.6.0' ],
+53 silly audit   'deep-is': [ '0.1.4' ],
+53 silly audit   deepmerge: [ '4.3.1' ],
+53 silly audit   'default-browser': [ '5.5.0' ],
+53 silly audit   'default-browser-id': [ '5.0.1' ],
+53 silly audit   'define-lazy-prop': [ '3.0.0' ],
+53 silly audit   'delayed-stream': [ '1.0.0' ],
+53 silly audit   denque: [ '2.1.0' ],
+53 silly audit   depd: [ '2.0.0' ],
+53 silly audit   destroy: [ '1.2.0' ],
+53 silly audit   'detect-libc': [ '2.1.2' ],
+53 silly audit   dlv: [ '1.1.3' ],
+53 silly audit   'dunder-proto': [ '1.0.1' ],
+53 silly audit   'edge-error': [ '4.0.2' ],
+53 silly audit   'edge-lexer': [ '6.0.4' ],
+53 silly audit   'edge-parser': [ '9.1.0' ],
+53 silly audit   'edge.js': [ '6.5.0' ],
+53 silly audit   'edgejs-parser': [ '0.2.19' ],
+53 silly audit   'ee-first': [ '1.1.1' ],
+53 silly audit   'electron-to-chromium': [ '1.5.329' ],
+53 silly audit   emittery: [ '1.2.1' ],
+53 silly audit   'emoji-regex': [ '8.0.0' ],
+53 silly audit   encodeurl: [ '2.0.0' ],
+53 silly audit   'end-of-stream': [ '1.4.5' ],
+53 silly audit   enquirer: [ '2.4.1' ],
+53 silly audit   entities: [ '7.0.1' ],
+53 silly audit   environment: [ '1.1.0' ],
+53 silly audit   'error-stack-parser-es': [ '1.0.5' ],
+53 silly audit   'es-define-property': [ '1.0.1' ],
+53 silly audit   'es-errors': [ '1.3.0' ],
+53 silly audit   'es-module-lexer': [ '1.7.0' ],
+53 silly audit   'es-object-atoms': [ '1.1.1' ],
+53 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+53 silly audit   esbuild: [ '0.27.4' ],
+53 silly audit   escalade: [ '3.2.0' ],
+53 silly audit   'escape-goat': [ '4.0.0' ],
+53 silly audit   'escape-html': [ '1.0.3' ],
+53 silly audit   eslint: [ '10.1.0' ],
+53 silly audit   'eslint-config-prettier': [ '10.1.8' ],
+53 silly audit   'eslint-plugin-prettier': [ '5.5.5' ],
+53 silly audit   'eslint-plugin-unicorn': [ '63.0.0' ],
+53 silly audit   'eslint-scope': [ '9.1.2' ],
+53 silly audit   espree: [ '11.2.0', '10.4.0' ],
+53 silly audit   esm: [ '3.2.25' ],
+53 silly audit   esquery: [ '1.7.0' ],
+53 silly audit   esrecurse: [ '4.3.0' ],
+53 silly audit   estraverse: [ '5.3.0' ],
+53 silly audit   'estree-walker': [ '2.0.2' ],
+53 silly audit   esutils: [ '2.0.3' ],
+53 silly audit   etag: [ '1.8.1' ],
+53 silly audit   execa: [ '9.6.1' ],
+53 silly audit   'expand-template': [ '2.0.3' ],
+53 silly audit   'fast-copy': [ '4.0.2' ],
+53 silly audit   'fast-deep-equal': [ '3.1.3' ],
+53 silly audit   'fast-diff': [ '1.3.0' ],
+53 silly audit   'fast-glob': [ '3.3.3' ],
+53 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+53 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+53 silly audit   'fast-levenshtein': [ '2.0.6' ],
+53 silly audit   'fast-safe-stringify': [ '2.1.1' ],
+53 silly audit   'fastest-levenshtein': [ '1.0.16' ],
+53 silly audit   fastq: [ '1.20.1' ],
+53 silly audit   fdir: [ '6.5.0' ],
+53 silly audit   figures: [ '6.1.0' ],
+53 silly audit   'file-entry-cache': [ '8.0.0' ],
+53 silly audit   'file-type': [ '21.3.4' ],
+53 silly audit   'file-uri-to-path': [ '1.0.0' ],
+53 silly audit   'fill-range': [ '7.1.1' ],
+53 silly audit   'find-cache-directory': [ '6.0.0' ],
+53 silly audit   'find-up': [ '5.0.0' ],
+53 silly audit   'find-up-simple': [ '1.0.1' ],
+53 silly audit   'flat-cache': [ '4.0.1' ],
+53 silly audit   flatted: [ '3.4.2' ],
+53 silly audit   flattie: [ '1.1.1' ],
+53 silly audit   'follow-redirects': [ '1.15.11' ],
+53 silly audit   'form-data': [ '4.0.5' ],
+53 silly audit   'mime-db': [ '1.52.0', '1.54.0' ],
+53 silly audit   'mime-types': [ '2.1.35', '3.0.2' ],
+53 silly audit   forwarded: [ '0.2.0' ],
+53 silly audit   fresh: [ '0.5.2', '2.0.0' ],
+53 silly audit   'fs-constants': [ '1.0.0' ],
+53 silly audit   fsevents: [ '2.3.2', '2.3.3' ],
+53 silly audit   'function-bind': [ '1.1.2' ],
+53 silly audit   'generate-function': [ '2.3.1' ],
+53 silly audit   'get-east-asian-width': [ '1.5.0' ],
+53 silly audit   'get-intrinsic': [ '1.3.0' ],
+53 silly audit   'get-package-type': [ '0.1.0' ],
+53 silly audit   'get-port': [ '7.2.0' ],
+53 silly audit   'get-proto': [ '1.0.1' ],
+53 silly audit   'get-stream': [ '9.0.1' ],
+53 silly audit   'get-tsconfig': [ '4.13.7' ],
+53 silly audit   getopts: [ '2.3.0' ],
+53 silly audit   'github-from-package': [ '0.0.0' ],
+53 silly audit   globals: [ '16.5.0' ],
+53 silly audit   gopd: [ '1.2.0' ],
+53 silly audit   'has-flag': [ '4.0.0' ],
+53 silly audit   'has-symbols': [ '1.1.0' ],
+53 silly audit   'has-tostringtag': [ '1.0.2' ],
+53 silly audit   hasown: [ '2.0.2' ],
+53 silly audit   he: [ '1.2.0' ],
+53 silly audit   'help-me': [ '5.0.0' ],
+53 silly audit   'hosted-git-info': [ '9.0.2' ],
+53 silly audit   'hot-hook': [ '1.0.0' ],
+53 silly audit   'html-entities': [ '2.6.0' ],
+53 silly audit   'http-errors': [ '2.0.1' ],
+53 silly audit   'human-signals': [ '8.0.1' ],
+53 silly audit   'iconv-lite': [ '0.7.2' ],
+53 silly audit   ieee754: [ '1.2.1' ],
+53 silly audit   igniculus: [ '1.5.0' ],
+53 silly audit   'import-meta-resolve': [ '4.2.0' ],
+53 silly audit   imurmurhash: [ '0.1.4' ],
+53 silly audit   'indent-string': [ '5.0.0' ],
+53 silly audit   'index-to-position': [ '1.2.0' ],
+53 silly audit   inflation: [ '2.1.0' ],
+53 silly audit   inherits: [ '2.0.4' ],
+53 silly audit   ini: [ '1.3.8' ],
+53 silly audit   interpret: [ '2.2.0' ],
+53 silly audit   'ipaddr.js': [ '1.9.1' ],
+53 silly audit   'is-builtin-module': [ '5.0.0' ],
+53 silly audit   'is-core-module': [ '2.16.1' ],
+53 silly audit   'is-docker': [ '3.0.0' ],
+53 silly audit   'is-extglob': [ '2.1.1' ],
+53 silly audit   'is-glob': [ '4.0.3' ],
+53 silly audit   'is-in-ssh': [ '1.0.0' ],
+53 silly audit   'is-inside-container': [ '1.0.0' ],
+53 silly audit   'is-number': [ '7.0.0' ],
+53 silly audit   'is-plain-obj': [ '4.1.0' ],
+53 silly audit   'is-property': [ '1.0.2' ],
+53 silly audit   'is-stream': [ '4.0.1' ],
+53 silly audit   'is-unicode-supported': [ '2.1.0' ],
+53 silly audit   'is-wsl': [ '3.1.1' ],
+53 silly audit   isexe: [ '2.0.0' ],
+53 silly audit   'jest-diff': [ '30.3.0' ],
+53 silly audit   joycon: [ '3.1.1' ],
+53 silly audit   'js-stringify': [ '1.0.2' ],
+53 silly audit   'js-tokens': [ '4.0.0' ],
+53 silly audit   jsesc: [ '3.1.0' ],
+53 silly audit   'json-buffer': [ '3.0.1' ],
+53 silly audit   'json-schema-traverse': [ '0.4.1' ],
+53 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+53 silly audit   jsonschema: [ '1.5.0' ],
+53 silly audit   junk: [ '4.0.1' ],
+53 silly audit   keyv: [ '4.5.4' ],
+53 silly audit   kleur: [ '4.1.5' ],
+53 silly audit   knex: [ '3.2.8', '3.2.7' ],
+53 silly audit   'knex-dynamic-connection': [ '5.0.1' ],
+53 silly audit   ms: [ '2.1.2', '2.1.3' ],
+53 silly audit   ky: [ '1.14.3' ],
+53 silly audit   'laravel-precognition': [ '1.0.2' ],
+53 silly audit   levn: [ '0.4.1' ],
+53 silly audit   'locate-path': [ '6.0.0' ],
+53 silly audit   lodash: [ '4.17.23' ],
+53 silly audit   'lodash-es': [ '4.17.23' ],
+53 silly audit   'log-update': [ '7.2.0' ],
+53 silly audit   'strip-ansi': [ '7.2.0', '6.0.1' ],
+53 silly audit   long: [ '5.3.2' ],
+53 silly audit   'lru-cache': [ '11.2.7' ],
+53 silly audit   'lru.min': [ '1.1.4' ],
+53 silly audit   luxon: [ '3.7.2' ],
+53 silly audit   'magic-string': [ '0.30.21' ],
+53 silly audit   'math-intrinsics': [ '1.1.0' ],
+53 silly audit   'media-typer': [ '1.1.0' ],
+53 silly audit   merge2: [ '1.4.1' ],
+53 silly audit   micromatch: [ '4.0.8' ],
+53 silly audit   picomatch: [ '2.3.2', '4.0.4' ],
+53 silly audit   'mimic-function': [ '5.0.1' ],
+53 silly audit   'mimic-response': [ '3.1.0' ],
+53 silly audit   minimatch: [ '10.2.5' ],
+53 silly audit   minimist: [ '1.2.8' ],
+53 silly audit   'mkdirp-classic': [ '0.5.3' ],
+53 silly audit   'muggle-string': [ '0.4.1' ],
+53 silly audit   'named-placeholders': [ '1.1.6' ],
+53 silly audit   nanoid: [ '3.3.11' ],
+53 silly audit   'napi-build-utils': [ '2.0.0' ],
+53 silly audit   'natural-compare': [ '1.4.0' ],
+53 silly audit   'node-abi': [ '3.89.0' ],
+53 silly audit   'node-releases': [ '2.0.36' ],
+53 silly audit   'normalize-package-data': [ '8.0.0' ],
+53 silly audit   'normalize-url': [ '8.1.1' ],
+53 silly audit   'npm-run-path': [ '6.0.0' ],
+53 silly audit   'path-key': [ '4.0.0', '3.1.1' ],
+53 silly audit   'object-inspect': [ '1.13.4' ],
+53 silly audit   'object-to-formdata': [ '4.5.1' ],
+53 silly audit   'on-exit-leak-free': [ '2.1.2' ],
+53 silly audit   'on-finished': [ '2.4.1' ],
+53 silly audit   once: [ '1.4.0' ],
+53 silly audit   onetime: [ '7.0.0' ],
+53 silly audit   open: [ '11.0.0' ],
+53 silly audit   optionator: [ '0.9.4' ],
+53 silly audit   'p-limit': [ '3.1.0' ],
+53 silly audit   'p-locate': [ '5.0.0' ],
+53 silly audit   'package-manager-detector': [ '1.6.0' ],
+53 silly audit   'parse-imports': [ '3.0.0' ],
+53 silly audit   'parse-json': [ '8.3.0' ],
+53 silly audit   'type-fest': [ '4.41.0', '5.5.0' ],
+53 silly audit   'parse-ms': [ '4.0.0' ],
+53 silly audit   parseurl: [ '1.3.3' ],
+53 silly audit   'path-browserify': [ '1.0.1' ],
+53 silly audit   'path-exists': [ '4.0.0' ],
+53 silly audit   'path-parse': [ '1.0.7' ],
+53 silly audit   'pg-connection-string': [ '2.6.2' ],
+53 silly audit   picocolors: [ '1.1.1' ],
+53 silly audit   pino: [ '10.3.1' ],
+53 silly audit   'pino-abstract-transport': [ '3.0.0' ],
+53 silly audit   'pino-pretty': [ '13.1.3' ],
+53 silly audit   'pino-std-serializers': [ '7.1.0' ],
+53 silly audit   'pkg-dir': [ '8.0.0' ],
+53 silly audit   playwright: [ '1.58.2' ],
+53 silly audit   'playwright-core': [ '1.58.2' ],
+53 silly audit   pluralize: [ '8.0.0' ],
+53 silly audit   postcss: [ '8.5.8' ],
+53 silly audit   'powershell-utils': [ '0.1.0' ],
+53 silly audit   'prebuild-install': [ '7.1.3' ],
+53 silly audit   'prelude-ls': [ '1.2.1' ],
+53 silly audit   prettier: [ '3.8.1' ],
+53 silly audit   'prettier-linter-helpers': [ '1.0.1' ],
+53 silly audit   'prettier-plugin-edgejs': [ '1.0.7' ],
+53 silly audit   'pretty-format': [ '30.3.0' ],
+53 silly audit   'pretty-hrtime': [ '1.0.3' ],
+53 silly audit   'pretty-ms': [ '9.3.0' ],
+53 silly audit   'process-warning': [ '5.0.0' ],
+53 silly audit   'property-information': [ '7.1.0' ],
+53 silly audit   'proxy-addr': [ '2.0.7' ],
+53 silly audit   'proxy-from-env': [ '2.1.0' ],
+53 silly audit   pump: [ '3.0.4' ],
+53 silly audit   punycode: [ '2.3.1' ],
+53 silly audit   qs: [ '6.15.0' ],
+53 silly audit   'queue-microtask': [ '1.2.3' ],
+53 silly audit   'quick-format-unescaped': [ '4.0.4' ],
+53 silly audit   'random-bytes': [ '1.0.0' ],
+53 silly audit   'range-parser': [ '1.2.1' ],
+53 silly audit   'raw-body': [ '3.0.2' ],
+53 silly audit   rc: [ '1.2.8' ],
+53 silly audit   'strip-json-comments': [ '2.0.1', '5.0.3' ],
+53 silly audit   'react-is': [ '18.3.1' ],
+53 silly audit   'read-package-up': [ '12.0.0' ],
+53 silly audit   'read-pkg': [ '10.1.0' ],
+53 silly audit   'unicorn-magic': [ '0.4.0', '0.3.0' ],
+53 silly audit   'readable-stream': [ '3.6.2' ],
+53 silly audit   readdirp: [ '5.0.0' ],
+53 silly audit   'real-require': [ '0.2.0' ],
+53 silly audit   rechoir: [ '0.8.0' ],
+53 silly audit   'reflect-metadata': [ '0.2.2' ],
+53 silly audit   'regexp-tree': [ '0.1.27' ],
+53 silly audit   regjsparser: [ '0.13.0' ],
+53 silly audit   resolve: [ '1.22.11' ],
+53 silly audit   'resolve-from': [ '5.0.0' ],
+53 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+53 silly audit   'restore-cursor': [ '5.1.0' ],
+53 silly audit   retry: [ '0.13.1' ],
+53 silly audit   reusify: [ '1.1.0' ],
+53 silly audit   rndm: [ '1.2.0' ],
+53 silly audit   rollup: [ '4.60.1' ],
+53 silly audit   'run-applescript': [ '7.1.0' ],
+53 silly audit   'run-parallel': [ '1.2.0' ],
+53 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+53 silly audit   'safe-stable-stringify': [ '2.5.0' ],
+53 silly audit   'safer-buffer': [ '2.1.2' ],
+53 silly audit   'secure-json-parse': [ '4.1.0' ],
+53 silly audit   semver: [ '7.7.4' ],
+53 silly audit   send: [ '1.2.1' ],
+53 silly audit   'serve-static': [ '2.2.1' ],
+53 silly audit   setprototypeof: [ '1.2.0' ],
+53 silly audit   'shebang-command': [ '2.0.0' ],
+53 silly audit   'shebang-regex': [ '3.0.0' ],
+53 silly audit   'side-channel': [ '1.1.0' ],
+53 silly audit   'side-channel-list': [ '1.0.0' ],
+53 silly audit   'side-channel-map': [ '1.0.1' ],
+53 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+53 silly audit   'signal-exit': [ '4.1.0' ],
+53 silly audit   'simple-concat': [ '1.0.1' ],
+53 silly audit   'simple-get': [ '4.0.1' ],
+53 silly audit   slash: [ '5.1.0' ],
+53 silly audit   slashes: [ '3.0.12' ],
+53 silly audit   'slice-ansi': [ '8.0.0' ],
+53 silly audit   slugify: [ '1.6.8' ],
+53 silly audit   'sonic-boom': [ '4.2.1' ],
+53 silly audit   'source-map-js': [ '1.2.1' ],
+53 silly audit   'spdx-correct': [ '3.2.0' ],
+53 silly audit   'spdx-exceptions': [ '2.5.0' ],
+53 silly audit   'spdx-expression-parse': [ '3.0.1' ],
+53 silly audit   'spdx-license-ids': [ '3.0.23' ],
+53 silly audit   'split-lines': [ '3.0.0' ],
+53 silly audit   split2: [ '4.2.0' ],
+53 silly audit   'sql-escaper': [ '1.3.3' ],
+53 silly audit   statuses: [ '2.0.2' ],
+53 silly audit   string_decoder: [ '1.3.0' ],
+53 silly audit   'stringify-attributes': [ '4.0.0' ],
+53 silly audit   'strip-final-newline': [ '4.0.0' ],
+53 silly audit   'strip-indent': [ '4.1.1' ],
+53 silly audit   strtok3: [ '10.3.5' ],
+53 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+53 silly audit   synckit: [ '0.11.12' ],
+53 silly audit   'tagged-tag': [ '1.0.0' ],
+53 silly audit   'tar-fs': [ '2.1.4' ],
+53 silly audit   'tar-stream': [ '2.2.0' ],
+53 silly audit   tarn: [ '3.0.2' ],
+53 silly audit   tempura: [ '0.4.1' ],
+53 silly audit   'terminal-size': [ '4.0.1' ],
+53 silly audit   'thread-stream': [ '4.0.0' ],
+53 silly audit   tildify: [ '2.0.0' ],
+53 silly audit   timekeeper: [ '2.3.1' ],
+53 silly audit   tinyexec: [ '1.0.4' ],
+53 silly audit   tinyglobby: [ '0.2.15' ],
+53 silly audit   'tmp-cache': [ '1.1.0' ],
+53 silly audit   'to-regex-range': [ '5.0.1' ],
+53 silly audit   toidentifier: [ '1.0.1' ],
+53 silly audit   'token-types': [ '6.1.2' ],
+53 silly audit   'ts-api-utils': [ '2.5.0' ],
+53 silly audit   'ts-morph': [ '27.0.2' ],
+53 silly audit   tsscmp: [ '1.0.6' ],
+53 silly audit   'tunnel-agent': [ '0.6.0' ],
+53 silly audit   'type-check': [ '0.4.0' ],
+53 silly audit   'type-is': [ '2.0.1' ],
+53 silly audit   typescript: [ '6.0.2' ],
+53 silly audit   'typescript-eslint': [ '8.58.0' ],
+53 silly audit   'uglify-js': [ '3.19.3' ],
+53 silly audit   'uid-safe': [ '2.1.5' ],
+53 silly audit   'uint8array-extras': [ '1.5.0' ],
+53 silly audit   'undici-types': [ '7.18.2' ],
+53 silly audit   unpipe: [ '1.0.0' ],
+53 silly audit   'update-browserslist-db': [ '1.2.3' ],
+53 silly audit   'uri-js': [ '4.4.1' ],
+53 silly audit   'util-deprecate': [ '1.0.2' ],
+53 silly audit   'validate-npm-package-license': [ '3.0.4' ],
+53 silly audit   validator: [ '13.15.26' ],
+53 silly audit   vary: [ '1.1.2' ],
+53 silly audit   vite: [ '7.3.1' ],
+53 silly audit   'vite-plugin-restart': [ '2.0.0' ],
+53 silly audit   'vscode-uri': [ '3.1.0' ],
+53 silly audit   vue: [ '3.5.31' ],
+53 silly audit   'vue-sonner': [ '2.0.9' ],
+53 silly audit   'vue-tsc': [ '3.2.6' ],
+53 silly audit   which: [ '2.0.2' ],
+53 silly audit   'word-wrap': [ '1.2.5' ],
+53 silly audit   'wrap-ansi': [ '10.0.0' ],
+53 silly audit   wrappy: [ '1.0.2' ],
+53 silly audit   'wsl-utils': [ '0.3.1' ],
+53 silly audit   'yargs-parser': [ '22.0.0' ],
+53 silly audit   'yocto-queue': [ '0.1.0' ],
+53 silly audit   yoctocolors: [ '2.1.2' ],
+53 silly audit   youch: [ '4.1.1' ],
+53 silly audit   'youch-core': [ '0.3.3' ],
+53 silly audit   mysql2: [ '3.22.3' ]
+53 silly audit }
+54 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\fsevents
+55 silly reify mark deleted [
+55 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\fsevents'
+55 silly reify ]
+56 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@swc\core-win32-ia32-msvc
+57 silly reify mark deleted [
+57 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@swc\\core-win32-ia32-msvc'
+57 silly reify ]
+58 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@swc\core-win32-arm64-msvc
+59 silly reify mark deleted [
+59 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@swc\\core-win32-arm64-msvc'
+59 silly reify ]
+60 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@swc\core-linux-x64-musl
+61 silly reify mark deleted [
+61 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@swc\\core-linux-x64-musl'
+61 silly reify ]
+62 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@swc\core-linux-x64-gnu
+63 silly reify mark deleted [
+63 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@swc\\core-linux-x64-gnu'
+63 silly reify ]
+64 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@swc\core-linux-s390x-gnu
+65 silly reify mark deleted [
+65 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@swc\\core-linux-s390x-gnu'
+65 silly reify ]
+66 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@swc\core-linux-ppc64-gnu
+67 silly reify mark deleted [
+67 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@swc\\core-linux-ppc64-gnu'
+67 silly reify ]
+68 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@swc\core-linux-arm64-musl
+69 silly reify mark deleted [
+69 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@swc\\core-linux-arm64-musl'
+69 silly reify ]
+70 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@swc\core-linux-arm64-gnu
+71 silly reify mark deleted [
+71 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@swc\\core-linux-arm64-gnu'
+71 silly reify ]
+72 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@swc\core-linux-arm-gnueabihf
+73 silly reify mark deleted [
+73 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@swc\\core-linux-arm-gnueabihf'
+73 silly reify ]
+74 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@swc\core-darwin-x64
+75 silly reify mark deleted [
+75 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@swc\\core-darwin-x64'
+75 silly reify ]
+76 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@swc\core-darwin-arm64
+77 silly reify mark deleted [
+77 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@swc\\core-darwin-arm64'
+77 silly reify ]
+78 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-win32-ia32-msvc
+79 silly reify mark deleted [
+79 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+79 silly reify ]
+80 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-win32-arm64-msvc
+81 silly reify mark deleted [
+81 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+81 silly reify ]
+82 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-openharmony-arm64
+83 silly reify mark deleted [
+83 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-openharmony-arm64'
+83 silly reify ]
+84 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-openbsd-x64
+85 silly reify mark deleted [
+85 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-openbsd-x64'
+85 silly reify ]
+86 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-linux-x64-musl
+87 silly reify mark deleted [
+87 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-linux-x64-musl'
+87 silly reify ]
+88 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-linux-x64-gnu
+89 silly reify mark deleted [
+89 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+89 silly reify ]
+90 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-linux-s390x-gnu
+91 silly reify mark deleted [
+91 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+91 silly reify ]
+92 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-linux-riscv64-musl
+93 silly reify mark deleted [
+93 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+93 silly reify ]
+94 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-linux-riscv64-gnu
+95 silly reify mark deleted [
+95 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+95 silly reify ]
+96 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-linux-ppc64-musl
+97 silly reify mark deleted [
+97 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-linux-ppc64-musl'
+97 silly reify ]
+98 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-linux-ppc64-gnu
+99 silly reify mark deleted [
+99 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-linux-ppc64-gnu'
+99 silly reify ]
+100 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-linux-loong64-musl
+101 silly reify mark deleted [
+101 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-linux-loong64-musl'
+101 silly reify ]
+102 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-linux-loong64-gnu
+103 silly reify mark deleted [
+103 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-linux-loong64-gnu'
+103 silly reify ]
+104 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-linux-arm64-musl
+105 silly reify mark deleted [
+105 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+105 silly reify ]
+106 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-linux-arm64-gnu
+107 silly reify mark deleted [
+107 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+107 silly reify ]
+108 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-linux-arm-musleabihf
+109 silly reify mark deleted [
+109 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+109 silly reify ]
+110 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-linux-arm-gnueabihf
+111 silly reify mark deleted [
+111 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+111 silly reify ]
+112 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-freebsd-x64
+113 silly reify mark deleted [
+113 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-freebsd-x64'
+113 silly reify ]
+114 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-freebsd-arm64
+115 silly reify mark deleted [
+115 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-freebsd-arm64'
+115 silly reify ]
+116 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-darwin-x64
+117 silly reify mark deleted [
+117 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-darwin-x64'
+117 silly reify ]
+118 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-darwin-arm64
+119 silly reify mark deleted [
+119 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-darwin-arm64'
+119 silly reify ]
+120 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-android-arm64
+121 silly reify mark deleted [
+121 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-android-arm64'
+121 silly reify ]
+122 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@rollup\rollup-android-arm-eabi
+123 silly reify mark deleted [
+123 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@rollup\\rollup-android-arm-eabi'
+123 silly reify ]
+124 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\win32-ia32
+125 silly reify mark deleted [
+125 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\win32-ia32'
+125 silly reify ]
+126 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\win32-arm64
+127 silly reify mark deleted [
+127 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\win32-arm64'
+127 silly reify ]
+128 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\sunos-x64
+129 silly reify mark deleted [
+129 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\sunos-x64'
+129 silly reify ]
+130 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\openharmony-arm64
+131 silly reify mark deleted [
+131 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\openharmony-arm64'
+131 silly reify ]
+132 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\openbsd-x64
+133 silly reify mark deleted [
+133 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\openbsd-x64'
+133 silly reify ]
+134 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\openbsd-arm64
+135 silly reify mark deleted [
+135 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\openbsd-arm64'
+135 silly reify ]
+136 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\netbsd-x64
+137 silly reify mark deleted [
+137 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\netbsd-x64'
+137 silly reify ]
+138 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\netbsd-arm64
+139 silly reify mark deleted [
+139 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\netbsd-arm64'
+139 silly reify ]
+140 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\linux-x64
+141 silly reify mark deleted [
+141 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\linux-x64'
+141 silly reify ]
+142 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\linux-s390x
+143 silly reify mark deleted [
+143 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\linux-s390x'
+143 silly reify ]
+144 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\linux-riscv64
+145 silly reify mark deleted [
+145 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\linux-riscv64'
+145 silly reify ]
+146 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\linux-ppc64
+147 silly reify mark deleted [
+147 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\linux-ppc64'
+147 silly reify ]
+148 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\linux-mips64el
+149 silly reify mark deleted [
+149 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\linux-mips64el'
+149 silly reify ]
+150 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\linux-loong64
+151 silly reify mark deleted [
+151 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\linux-loong64'
+151 silly reify ]
+152 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\linux-ia32
+153 silly reify mark deleted [
+153 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\linux-ia32'
+153 silly reify ]
+154 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\linux-arm64
+155 silly reify mark deleted [
+155 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\linux-arm64'
+155 silly reify ]
+156 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\linux-arm
+157 silly reify mark deleted [
+157 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\linux-arm'
+157 silly reify ]
+158 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\freebsd-x64
+159 silly reify mark deleted [
+159 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\freebsd-x64'
+159 silly reify ]
+160 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\freebsd-arm64
+161 silly reify mark deleted [
+161 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\freebsd-arm64'
+161 silly reify ]
+162 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\darwin-x64
+163 silly reify mark deleted [
+163 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\darwin-x64'
+163 silly reify ]
+164 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\darwin-arm64
+165 silly reify mark deleted [
+165 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\darwin-arm64'
+165 silly reify ]
+166 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\android-x64
+167 silly reify mark deleted [
+167 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\android-x64'
+167 silly reify ]
+168 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\android-arm64
+169 silly reify mark deleted [
+169 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\android-arm64'
+169 silly reify ]
+170 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\android-arm
+171 silly reify mark deleted [
+171 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\android-arm'
+171 silly reify ]
+172 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@esbuild\aix-ppc64
+173 silly reify mark deleted [
+173 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@esbuild\\aix-ppc64'
+173 silly reify ]
+174 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@ast-grep\napi-win32-ia32-msvc
+175 silly reify mark deleted [
+175 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@ast-grep\\napi-win32-ia32-msvc'
+175 silly reify ]
+176 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@ast-grep\napi-win32-arm64-msvc
+177 silly reify mark deleted [
+177 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@ast-grep\\napi-win32-arm64-msvc'
+177 silly reify ]
+178 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@ast-grep\napi-linux-x64-musl
+179 silly reify mark deleted [
+179 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@ast-grep\\napi-linux-x64-musl'
+179 silly reify ]
+180 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@ast-grep\napi-linux-x64-gnu
+181 silly reify mark deleted [
+181 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@ast-grep\\napi-linux-x64-gnu'
+181 silly reify ]
+182 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@ast-grep\napi-linux-arm64-musl
+183 silly reify mark deleted [
+183 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@ast-grep\\napi-linux-arm64-musl'
+183 silly reify ]
+184 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@ast-grep\napi-linux-arm64-gnu
+185 silly reify mark deleted [
+185 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@ast-grep\\napi-linux-arm64-gnu'
+185 silly reify ]
+186 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@ast-grep\napi-darwin-x64
+187 silly reify mark deleted [
+187 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@ast-grep\\napi-darwin-x64'
+187 silly reify ]
+188 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\@ast-grep\napi-darwin-arm64
+189 silly reify mark deleted [
+189 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\@ast-grep\\napi-darwin-arm64'
+189 silly reify ]
+190 verbose reify failed optional dependency C:\Users\px20umf\Documents\github\web-chat-app-av\node_modules\vite\node_modules\fsevents
+191 silly reify mark deleted [
+191 silly reify   'C:\\Users\\px20umf\\Documents\\github\\web-chat-app-av\\node_modules\\vite\\node_modules\\fsevents'
+191 silly reify ]
+192 http cache mysql2@https://registry.npmjs.org/mysql2/-/mysql2-3.22.3.tgz 1ms (cache hit)
+193 http cache sql-escaper@https://registry.npmjs.org/sql-escaper/-/sql-escaper-1.3.3.tgz 0ms (cache hit)
+194 http cache lru.min@https://registry.npmjs.org/lru.min/-/lru.min-1.1.4.tgz 0ms (cache hit)
+195 http cache named-placeholders@https://registry.npmjs.org/named-placeholders/-/named-placeholders-1.1.6.tgz 0ms (cache hit)
+196 http cache is-property@https://registry.npmjs.org/is-property/-/is-property-1.0.2.tgz 0ms (cache hit)
+197 http cache long@https://registry.npmjs.org/long/-/long-5.3.2.tgz 0ms (cache hit)
+198 http cache denque@https://registry.npmjs.org/denque/-/denque-2.1.0.tgz 0ms (cache hit)
+199 silly tarball no local data for mysql2@https://registry.npmjs.org/mysql2/-/mysql2-3.22.3.tgz. Extracting by manifest.
+200 http cache generate-function@https://registry.npmjs.org/generate-function/-/generate-function-2.3.1.tgz 0ms (cache hit)
+201 silly tarball no local data for sql-escaper@https://registry.npmjs.org/sql-escaper/-/sql-escaper-1.3.3.tgz. Extracting by manifest.
+202 silly tarball no local data for lru.min@https://registry.npmjs.org/lru.min/-/lru.min-1.1.4.tgz. Extracting by manifest.
+203 http cache aws-ssl-profiles@https://registry.npmjs.org/aws-ssl-profiles/-/aws-ssl-profiles-1.1.2.tgz 0ms (cache hit)
+204 silly tarball no local data for named-placeholders@https://registry.npmjs.org/named-placeholders/-/named-placeholders-1.1.6.tgz. Extracting by manifest.
+205 silly tarball no local data for is-property@https://registry.npmjs.org/is-property/-/is-property-1.0.2.tgz. Extracting by manifest.
+206 silly tarball no local data for long@https://registry.npmjs.org/long/-/long-5.3.2.tgz. Extracting by manifest.
+207 silly tarball no local data for denque@https://registry.npmjs.org/denque/-/denque-2.1.0.tgz. Extracting by manifest.
+208 silly tarball no local data for generate-function@https://registry.npmjs.org/generate-function/-/generate-function-2.3.1.tgz. Extracting by manifest.
+209 silly tarball no local data for aws-ssl-profiles@https://registry.npmjs.org/aws-ssl-profiles/-/aws-ssl-profiles-1.1.2.tgz. Extracting by manifest.
+210 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 219ms
+211 silly audit report {
+211 silly audit report   '@adonisjs/core': [
+211 silly audit report     {
+211 silly audit report       id: 1117018,
+211 silly audit report       url: 'https://github.com/advisories/GHSA-6qvv-pj99-48qm',
+211 silly audit report       title: '@adonisjs/http-server has an Open Redirect vulnerability',
+211 silly audit report       severity: 'moderate',
+211 silly audit report       vulnerable_versions: '<7.3.1',
+211 silly audit report       cwe: [Array],
+211 silly audit report       cvss: [Object]
+211 silly audit report     }
+211 silly audit report   ],
+211 silly audit report   '@adonisjs/http-server': [
+211 silly audit report     {
+211 silly audit report       id: 1117033,
+211 silly audit report       url: 'https://github.com/advisories/GHSA-6qvv-pj99-48qm',
+211 silly audit report       title: '@adonisjs/http-server has an Open Redirect vulnerability',
+211 silly audit report       severity: 'moderate',
+211 silly audit report       vulnerable_versions: '>=8.0.0-next.0 <8.2.0',
+211 silly audit report       cwe: [Array],
+211 silly audit report       cvss: [Object]
+211 silly audit report     }
+211 silly audit report   ],
+211 silly audit report   axios: [
+211 silly audit report     {
+211 silly audit report       id: 1116673,
+211 silly audit report       url: 'https://github.com/advisories/GHSA-3p68-rc4w-qgx5',
+211 silly audit report       title: 'Axios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF',
+211 silly audit report       severity: 'moderate',
+211 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.0',
+211 silly audit report       cwe: [Array],
+211 silly audit report       cvss: [Object]
+211 silly audit report     },
+211 silly audit report     {
+211 silly audit report       id: 1116675,
+211 silly audit report       url: 'https://github.com/advisories/GHSA-fvcv-3m26-pcqx',
+211 silly audit report       title: 'Axios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain',
+211 silly audit report       severity: 'moderate',
+211 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.0',
+211 silly audit report       cwe: [Array],
+211 silly audit report       cvss: [Object]
+211 silly audit report     }
+211 silly audit report   ],
+211 silly audit report   'follow-redirects': [
+211 silly audit report     {
+211 silly audit report       id: 1116560,
+211 silly audit report       url: 'https://github.com/advisories/GHSA-r4q5-vmmm-2653',
+211 silly audit report       title: 'follow-redirects leaks Custom Authentication Headers to Cross-Domain Redirect Targets',
+211 silly audit report       severity: 'moderate',
+211 silly audit report       vulnerable_versions: '<=1.15.11',
+211 silly audit report       cwe: [Array],
+211 silly audit report       cvss: [Object]
+211 silly audit report     }
+211 silly audit report   ],
+211 silly audit report   lodash: [
+211 silly audit report     {
+211 silly audit report       id: 1115806,
+211 silly audit report       url: 'https://github.com/advisories/GHSA-r5fr-rjxr-66jc',
+211 silly audit report       title: 'lodash vulnerable to Code Injection via `_.template` imports key names',
+211 silly audit report       severity: 'high',
+211 silly audit report       vulnerable_versions: '>=4.0.0 <=4.17.23',
+211 silly audit report       cwe: [Array],
+211 silly audit report       cvss: [Object]
+211 silly audit report     },
+211 silly audit report     {
+211 silly audit report       id: 1115810,
+211 silly audit report       url: 'https://github.com/advisories/GHSA-f23m-r3pf-42rh',
+211 silly audit report       title: 'lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`',
+211 silly audit report       severity: 'moderate',
+211 silly audit report       vulnerable_versions: '<=4.17.23',
+211 silly audit report       cwe: [Array],
+211 silly audit report       cvss: [Object]
+211 silly audit report     }
+211 silly audit report   ],
+211 silly audit report   'lodash-es': [
+211 silly audit report     {
+211 silly audit report       id: 1115805,
+211 silly audit report       url: 'https://github.com/advisories/GHSA-r5fr-rjxr-66jc',
+211 silly audit report       title: 'lodash vulnerable to Code Injection via `_.template` imports key names',
+211 silly audit report       severity: 'high',
+211 silly audit report       vulnerable_versions: '>=4.0.0 <=4.17.23',
+211 silly audit report       cwe: [Array],
+211 silly audit report       cvss: [Object]
+211 silly audit report     },
+211 silly audit report     {
+211 silly audit report       id: 1115809,
+211 silly audit report       url: 'https://github.com/advisories/GHSA-f23m-r3pf-42rh',
+211 silly audit report       title: 'lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`',
+211 silly audit report       severity: 'moderate',
+211 silly audit report       vulnerable_versions: '<=4.17.23',
+211 silly audit report       cwe: [Array],
+211 silly audit report       cvss: [Object]
+211 silly audit report     }
+211 silly audit report   ],
+211 silly audit report   postcss: [
+211 silly audit report     {
+211 silly audit report       id: 1117015,
+211 silly audit report       url: 'https://github.com/advisories/GHSA-qx2v-qp2m-jg93',
+211 silly audit report       title: 'PostCSS has XSS via Unescaped </style> in its CSS Stringify Output',
+211 silly audit report       severity: 'moderate',
+211 silly audit report       vulnerable_versions: '<8.5.10',
+211 silly audit report       cwe: [Array],
+211 silly audit report       cvss: [Object]
+211 silly audit report     }
+211 silly audit report   ],
+211 silly audit report   vite: [
+211 silly audit report     {
+211 silly audit report       id: 1116230,
+211 silly audit report       url: 'https://github.com/advisories/GHSA-4w7w-66w2-5vf9',
+211 silly audit report       title: 'Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling',
+211 silly audit report       severity: 'moderate',
+211 silly audit report       vulnerable_versions: '>=7.0.0 <=7.3.1',
+211 silly audit report       cwe: [Array],
+211 silly audit report       cvss: [Object]
+211 silly audit report     },
+211 silly audit report     {
+211 silly audit report       id: 1116232,
+211 silly audit report       url: 'https://github.com/advisories/GHSA-v2wj-q39q-566r',
+211 silly audit report       title: 'Vite: `server.fs.deny` bypassed with queries',
+211 silly audit report       severity: 'high',
+211 silly audit report       vulnerable_versions: '>=7.1.0 <=7.3.1',
+211 silly audit report       cwe: [Array],
+211 silly audit report       cvss: [Object]
+211 silly audit report     },
+211 silly audit report     {
+211 silly audit report       id: 1116235,
+211 silly audit report       url: 'https://github.com/advisories/GHSA-p9ff-h696-f583',
+211 silly audit report       title: 'Vite Vulnerable to Arbitrary File Read via Vite Dev Server WebSocket',
+211 silly audit report       severity: 'high',
+211 silly audit report       vulnerable_versions: '>=7.0.0 <=7.3.1',
+211 silly audit report       cwe: [Array],
+211 silly audit report       cvss: [Object]
+211 silly audit report     }
+211 silly audit report   ]
+211 silly audit report }
+212 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fcore cache-miss
+213 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fhttp-server cache-miss
+214 silly packumentCache corgi:https://registry.npmjs.org/axios cache-miss
+215 silly packumentCache corgi:https://registry.npmjs.org/follow-redirects cache-miss
+216 silly packumentCache corgi:https://registry.npmjs.org/lodash cache-miss
+217 silly packumentCache corgi:https://registry.npmjs.org/lodash-es cache-miss
+218 silly packumentCache corgi:https://registry.npmjs.org/postcss cache-miss
+219 silly packumentCache corgi:https://registry.npmjs.org/vite cache-miss
+220 http fetch GET 200 https://registry.npmjs.org/is-property/-/is-property-1.0.2.tgz 239ms (cache miss)
+221 http fetch GET 200 https://registry.npmjs.org/named-placeholders/-/named-placeholders-1.1.6.tgz 241ms (cache miss)
+222 http fetch GET 200 https://registry.npmjs.org/denque/-/denque-2.1.0.tgz 241ms (cache miss)
+223 http fetch GET 200 https://registry.npmjs.org/generate-function/-/generate-function-2.3.1.tgz 245ms (cache miss)
+224 http fetch GET 200 https://registry.npmjs.org/lru.min/-/lru.min-1.1.4.tgz 257ms (cache miss)
+225 http fetch GET 200 https://registry.npmjs.org/long/-/long-5.3.2.tgz 276ms (cache miss)
+226 http fetch GET 200 https://registry.npmjs.org/lodash 77ms (cache miss)
+227 silly packumentCache corgi:https://registry.npmjs.org/lodash set size:undefined disposed:false
+228 http fetch GET 200 https://registry.npmjs.org/follow-redirects 90ms (cache miss)
+229 silly packumentCache corgi:https://registry.npmjs.org/follow-redirects set size:undefined disposed:false
+230 http fetch GET 200 https://registry.npmjs.org/aws-ssl-profiles/-/aws-ssl-profiles-1.1.2.tgz 309ms (cache miss)
+231 http fetch GET 200 https://registry.npmjs.org/mysql2/-/mysql2-3.22.3.tgz 351ms (cache miss)
+232 http fetch GET 200 https://registry.npmjs.org/lodash-es 157ms (cache miss)
+233 silly packumentCache corgi:https://registry.npmjs.org/lodash-es set size:undefined disposed:false
+234 http fetch GET 200 https://registry.npmjs.org/sql-escaper/-/sql-escaper-1.3.3.tgz 427ms (cache miss)
+235 http fetch GET 200 https://registry.npmjs.org/axios 448ms (cache miss)
+236 silly packumentCache corgi:https://registry.npmjs.org/axios set size:undefined disposed:false
+237 http fetch GET 200 https://registry.npmjs.org/postcss 456ms (cache miss)
+238 silly packumentCache corgi:https://registry.npmjs.org/postcss set size:undefined disposed:false
+239 http fetch GET 200 https://registry.npmjs.org/@adonisjs%2fhttp-server 483ms (cache miss)
+240 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fhttp-server set size:undefined disposed:false
+241 http fetch GET 200 https://registry.npmjs.org/@adonisjs%2fcore 490ms (cache miss)
+242 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fcore set size:undefined disposed:false
+243 http fetch GET 200 https://registry.npmjs.org/vite 520ms (cache miss)
+244 silly packumentCache corgi:https://registry.npmjs.org/vite set size:undefined disposed:false
+245 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fauth cache-miss
+246 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fcors cache-miss
+247 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2finertia cache-miss
+248 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2flucid cache-miss
+249 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fpresets cache-miss
+250 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fsession cache-miss
+251 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fshield cache-miss
+252 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fstatic cache-miss
+253 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fvite cache-miss
+254 silly packumentCache corgi:https://registry.npmjs.org/@japa%2fplugin-adonisjs cache-miss
+255 silly packumentCache corgi:https://registry.npmjs.org/@tuyau%2fcore cache-miss
+256 http fetch GET 200 https://registry.npmjs.org/@adonisjs%2fvite 427ms (cache miss)
+257 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fvite set size:undefined disposed:false
+258 http fetch GET 200 https://registry.npmjs.org/@adonisjs%2fpresets 457ms (cache miss)
+259 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fpresets set size:undefined disposed:false
+260 http fetch GET 200 https://registry.npmjs.org/@adonisjs%2fcors 468ms (cache miss)
+261 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fcors set size:undefined disposed:false
+262 http fetch GET 200 https://registry.npmjs.org/@adonisjs%2fstatic 471ms (cache miss)
+263 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fstatic set size:undefined disposed:false
+264 http fetch GET 200 https://registry.npmjs.org/@japa%2fplugin-adonisjs 473ms (cache miss)
+265 silly packumentCache corgi:https://registry.npmjs.org/@japa%2fplugin-adonisjs set size:undefined disposed:false
+266 http fetch GET 200 https://registry.npmjs.org/@adonisjs%2finertia 487ms (cache miss)
+267 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2finertia set size:undefined disposed:false
+268 http fetch GET 200 https://registry.npmjs.org/@adonisjs%2fsession 495ms (cache miss)
+269 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fsession set size:undefined disposed:false
+270 http fetch GET 200 https://registry.npmjs.org/@adonisjs%2fshield 518ms (cache miss)
+271 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fshield set size:undefined disposed:false
+272 http fetch GET 200 https://registry.npmjs.org/@adonisjs%2fauth 533ms (cache miss)
+273 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fauth set size:undefined disposed:false
+274 http fetch GET 200 https://registry.npmjs.org/@tuyau%2fcore 549ms (cache miss)
+275 silly packumentCache corgi:https://registry.npmjs.org/@tuyau%2fcore set size:undefined disposed:false
+276 http fetch GET 200 https://registry.npmjs.org/@adonisjs%2flucid 561ms (cache miss)
+277 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2flucid set size:undefined disposed:false
+278 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fbodyparser cache-miss
+279 http fetch GET 200 https://registry.npmjs.org/@adonisjs%2fbodyparser 571ms (cache miss)
+280 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fbodyparser set size:undefined disposed:false
+281 silly packumentCache corgi:https://registry.npmjs.org/@inertiajs%2fcore cache-miss
+282 silly packumentCache corgi:https://registry.npmjs.org/laravel-precognition cache-miss
+283 http fetch GET 200 https://registry.npmjs.org/laravel-precognition 221ms (cache miss)
+284 silly packumentCache corgi:https://registry.npmjs.org/laravel-precognition set size:undefined disposed:false
+285 http fetch GET 200 https://registry.npmjs.org/@inertiajs%2fcore 503ms (cache miss)
+286 silly packumentCache corgi:https://registry.npmjs.org/@inertiajs%2fcore set size:undefined disposed:false
+287 silly packumentCache corgi:https://registry.npmjs.org/knex cache-miss
+288 http fetch GET 200 https://registry.npmjs.org/knex 132ms (cache miss)
+289 silly packumentCache corgi:https://registry.npmjs.org/knex set size:undefined disposed:false
+290 silly packumentCache corgi:https://registry.npmjs.org/@chevrotain%2fcst-dts-gen cache-miss
+291 silly packumentCache corgi:https://registry.npmjs.org/@chevrotain%2fgast cache-miss
+292 silly packumentCache corgi:https://registry.npmjs.org/@inertiajs%2fvue3 cache-miss
+293 silly packumentCache corgi:https://registry.npmjs.org/chevrotain cache-miss
+294 http fetch GET 200 https://registry.npmjs.org/@chevrotain%2fcst-dts-gen 255ms (cache miss)
+295 silly packumentCache corgi:https://registry.npmjs.org/@chevrotain%2fcst-dts-gen set size:undefined disposed:false
+296 http fetch GET 200 https://registry.npmjs.org/chevrotain 276ms (cache miss)
+297 silly packumentCache corgi:https://registry.npmjs.org/chevrotain set size:undefined disposed:false
+298 http fetch GET 200 https://registry.npmjs.org/@inertiajs%2fvue3 441ms (cache miss)
+299 silly packumentCache corgi:https://registry.npmjs.org/@inertiajs%2fvue3 set size:undefined disposed:false
+300 http fetch GET 200 https://registry.npmjs.org/@chevrotain%2fgast 741ms (cache miss)
+301 silly packumentCache corgi:https://registry.npmjs.org/@chevrotain%2fgast set size:undefined disposed:false
+302 silly packumentCache corgi:https://registry.npmjs.org/@vue%2fcompiler-sfc cache-miss
+303 http fetch GET 200 https://registry.npmjs.org/@vue%2fcompiler-sfc 153ms (cache miss)
+304 silly packumentCache corgi:https://registry.npmjs.org/@vue%2fcompiler-sfc set size:undefined disposed:false
+305 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-vue cache-miss
+306 silly packumentCache corgi:https://registry.npmjs.org/vite-plugin-restart cache-miss
+307 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-vue 97ms (cache miss)
+308 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-vue set size:undefined disposed:false
+309 http fetch GET 200 https://registry.npmjs.org/vite-plugin-restart 211ms (cache miss)
+310 silly packumentCache corgi:https://registry.npmjs.org/vite-plugin-restart set size:undefined disposed:false
+311 silly packumentCache corgi:https://registry.npmjs.org/edgejs-parser cache-miss
+312 http fetch GET 200 https://registry.npmjs.org/edgejs-parser 206ms (cache miss)
+313 silly packumentCache corgi:https://registry.npmjs.org/edgejs-parser set size:undefined disposed:false
+314 silly packumentCache corgi:https://registry.npmjs.org/prettier-plugin-edgejs cache-miss
+315 http fetch GET 200 https://registry.npmjs.org/prettier-plugin-edgejs 221ms (cache miss)
+316 silly packumentCache corgi:https://registry.npmjs.org/prettier-plugin-edgejs set size:undefined disposed:false
+317 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fprettier-config cache-miss
+318 http fetch GET 200 https://registry.npmjs.org/@adonisjs%2fprettier-config 767ms (cache miss)
+319 silly packumentCache corgi:https://registry.npmjs.org/@adonisjs%2fprettier-config set size:undefined disposed:false
+320 silly ADD node_modules/mysql2
+321 silly ADD node_modules/sql-escaper
+322 silly ADD node_modules/named-placeholders
+323 silly ADD node_modules/lru.min
+324 silly ADD node_modules/long
+325 silly ADD node_modules/is-property
+326 silly ADD node_modules/generate-function
+327 silly ADD
+328 silly ADD node_modules/denque
+329 silly ADD node_modules/aws-ssl-profiles
+330 silly ADD
+331 silly ADD
+332 silly ADD
+333 silly ADD
+334 silly ADD
+335 silly ADD
+336 silly ADD
+337 silly ADD
+338 silly ADD
+339 silly ADD
+340 silly ADD
+341 silly ADD
+342 silly ADD
+343 silly ADD
+344 silly ADD
+345 silly ADD
+346 silly ADD
+347 silly ADD
+348 silly ADD
+349 silly ADD
+350 silly ADD
+351 silly ADD
+352 silly ADD
+353 silly ADD
+354 silly ADD
+355 silly ADD
+356 silly ADD
+357 silly ADD
+358 silly ADD
+359 silly ADD
+360 silly ADD
+361 silly ADD
+362 silly ADD
+363 silly ADD
+364 silly ADD
+365 silly ADD
+366 silly ADD
+367 silly ADD
+368 silly ADD
+369 silly ADD
+370 silly ADD
+371 silly ADD
+372 silly ADD
+373 silly ADD
+374 silly ADD
+375 silly ADD
+376 silly ADD
+377 silly ADD
+378 silly ADD
+379 silly ADD
+380 silly ADD
+381 silly ADD
+382 silly ADD
+383 silly ADD
+384 silly ADD
+385 silly ADD
+386 silly ADD
+387 silly ADD
+388 silly ADD
+389 silly ADD
+390 silly ADD
+391 silly ADD
+392 silly ADD
+393 silly ADD
+394 silly ADD
+395 silly ADD
+396 silly ADD
+397 silly ADD
+398 verbose cwd C:\Users\px20umf\Documents\github\web-chat-app-av
+399 verbose os Windows_NT 10.0.19045
+400 verbose node v22.18.0
+401 verbose npm  v10.9.3
+402 notice
+402 notice New [31mmajor[39m version of npm available! [31m10.9.3[39m -> [34m11.13.0[39m
+402 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.13.0[39m
+402 notice To update run: [4mnpm install -g npm@11.13.0[24m
+402 notice  { force: true, [Symbol(proc-log.meta)]: true }
+403 verbose exit 0
+404 info ok

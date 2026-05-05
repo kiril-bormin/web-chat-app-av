@@ -10,21 +10,29 @@ export type ScannedRoutes = {
     'session.create': { paramsTuple?: []; params?: {} }
     'session.store': { paramsTuple?: []; params?: {} }
     'session.destroy': { paramsTuple?: []; params?: {} }
+    'messages.get_users': { paramsTuple?: []; params?: {} }
+    'messages.get_messages': { paramsTuple: [ParamValue]; params: {'userId': ParamValue} }
+    'messages.send_message': { paramsTuple: [ParamValue]; params: {'userId': ParamValue} }
   }
   GET: {
     'home': { paramsTuple?: []; params?: {} }
     'new_account.create': { paramsTuple?: []; params?: {} }
     'session.create': { paramsTuple?: []; params?: {} }
+    'messages.get_users': { paramsTuple?: []; params?: {} }
+    'messages.get_messages': { paramsTuple: [ParamValue]; params: {'userId': ParamValue} }
   }
   HEAD: {
     'home': { paramsTuple?: []; params?: {} }
     'new_account.create': { paramsTuple?: []; params?: {} }
     'session.create': { paramsTuple?: []; params?: {} }
+    'messages.get_users': { paramsTuple?: []; params?: {} }
+    'messages.get_messages': { paramsTuple: [ParamValue]; params: {'userId': ParamValue} }
   }
   POST: {
     'new_account.store': { paramsTuple?: []; params?: {} }
     'session.store': { paramsTuple?: []; params?: {} }
     'session.destroy': { paramsTuple?: []; params?: {} }
+    'messages.send_message': { paramsTuple: [ParamValue]; params: {'userId': ParamValue} }
   }
 }
 declare module '@adonisjs/core/types/http' {

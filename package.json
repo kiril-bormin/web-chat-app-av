@@ -67,6 +67,8 @@
     "@adonisjs/session": "^8.0.0",
     "@adonisjs/shield": "^9.0.0",
     "@adonisjs/static": "^2.0.1",
+    "@adonisjs/transmit": "^3.0.1",
+    "@adonisjs/transmit-client": "^1.1.0",
     "@adonisjs/vite": "^5.1.0",
     "@inertiajs/vue3": "^2.3.18",
     "@tuyau/core": "^1.2.2",
@@ -74,7 +76,7 @@
     "better-sqlite3": "^12.8.0",
     "edge.js": "^6.5.0",
     "luxon": "^3.7.2",
-    "mysql2": "^3.22.2",
+    "mysql2": "^3.22.3",
     "reflect-metadata": "^0.2.2",
     "vue": "^3.5.31",
     "vue-sonner": "^2.0.9"
