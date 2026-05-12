@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import { useForm, usePage } from '@inertiajs/vue3'
+import type { SharedProps } from '@adonisjs/inertia/types'
 
-const page = usePage()
-// On récupère l'utilisateur connecté via les props globales d'Inertia
-const user = page.props.auth.user
+const page = usePage<SharedProps>()
+// On récupère l'utilisateur connecté via les props partagées d'Inertia
+const user = page.props.user!
 
 const form = useForm({
   avatar: null as File | null,
