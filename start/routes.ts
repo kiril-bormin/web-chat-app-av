@@ -12,6 +12,7 @@ import router from '@adonisjs/core/services/router'
 import NewAccountController from '#controllers/new_account_controller'
 import SessionController from '#controllers/session_controller'
 import MessagesController from '#controllers/messages_controller'
+import ProfilsController from '#controllers/profils_controller'
 
 router.on('/').renderInertia('home', {}).as('home')
 
@@ -26,3 +27,7 @@ router.post('logout', [SessionController, 'destroy']).use(middleware.auth())
 router.get('users', [MessagesController, 'getUsers']).use(middleware.auth())
 router.get('messages/:userId', [MessagesController, 'getMessages']).use(middleware.auth())
 router.post('messages/:userId', [MessagesController, 'sendMessage']).use(middleware.auth())
+
+// Profile
+router.get('profile', [ProfilsController, 'edit']).use(middleware.auth())
+router.patch('profile', [ProfilsController, 'update']).use(middleware.auth())

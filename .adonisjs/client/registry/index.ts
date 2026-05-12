@@ -60,6 +60,18 @@ const routes = {
     tokens: [{"old":"/messages/:userId","type":0,"val":"messages","end":""},{"old":"/messages/:userId","type":1,"val":"userId","end":""}],
     types: placeholder as Registry['messages.send_message']['types'],
   },
+  'profils.edit': {
+    methods: ["GET","HEAD"],
+    pattern: '/profile',
+    tokens: [{"old":"/profile","type":0,"val":"profile","end":""}],
+    types: placeholder as Registry['profils.edit']['types'],
+  },
+  'profils.update': {
+    methods: ["PATCH"],
+    pattern: '/profile',
+    tokens: [{"old":"/profile","type":0,"val":"profile","end":""}],
+    types: placeholder as Registry['profils.update']['types'],
+  },
 } as const satisfies Record<string, AdonisEndpoint>
 
 export { routes }

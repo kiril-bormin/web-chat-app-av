@@ -4,7 +4,10 @@ export default class ProfilsController {
   /**
    * Handle form submission for the edit action
    */
-  async update({ params, request }: HttpContext) {
-    // à faire
+  async edit({ inertia }: HttpContext) {
+    return inertia.render('profile/edit', {})
+  }
+  async update({ request, auth, response }: HttpContext) {
+    const user = !auth.user
   }
 }

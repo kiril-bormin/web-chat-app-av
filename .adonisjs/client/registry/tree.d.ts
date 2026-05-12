@@ -17,4 +17,8 @@ export interface ApiDefinition {
     getMessages: typeof routes['messages.get_messages']
     sendMessage: typeof routes['messages.send_message']
   }
+  profils: {
+    edit: typeof routes['profils.edit']
+    update: typeof routes['profils.update']
+  }
 }
